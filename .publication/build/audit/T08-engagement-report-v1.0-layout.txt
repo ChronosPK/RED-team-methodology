@@ -1,0 +1,921 @@
+                                           UNCLASSIFIED
+
+
+
+T08 — Red Team Engagement Report
+[ENGAGEMENT NAME]
+[TARGET ORGANISATION]
+
+Field                                                     Value
+
+
+Engagement reference                                      RT-[YYYY]-[NNN]
+
+Code name
+
+Classification
+
+Report version
+
+Execution window
+
+Report date
+
+Prepared by
+
+QA reviewed by (did not execute)
+
+Distribution                                              (named individuals or named roles only)
+
+
+Handling: This report contains information about weaknesses in [ORGANISATION]’s defences. Dis-
+tribute only to those named above. Do not forward. Store in accordance with [CLASSIFICATION]
+handling rules.
+
+
+
+
+1. Executive summary
+        Maximum 2 pages. Standalone — a reader who reads nothing else must understand the
+        outcome. No jargon, no technique IDs, no tool names.
+
+1.1 The question the engagement was required to answer
+
+Response / notes
+
+
+
+
+1.2 Activity conducted
+Two or three sentences: which adversary was emulated, from what starting position, over what period.
+
+
+                                           UNCLASSIFIED
+                                                 1/18
+                                            UNCLASSIFIED
+
+
+
+
+Response / notes
+
+
+
+
+1.3 What happened
+
+Objective ID                   Objective                 Outcome
+
+
+O-01                                                     □ Achieved □ Partially □ Prevented
+
+O-02                                                     □ Achieved □ Partially □ Prevented
+
+O-03                                                     □ Achieved □ Partially □ Prevented
+
+
+
+Response / notes
+
+
+
+
+1.4 What worked
+       Mandatory. The controls that prevented, delayed or detected the activity.
+
+Response / notes
+
+
+
+
+1.5 What did not work
+Material gaps, in order of consequence.
+
+
+                                            UNCLASSIFIED
+                                                  2/18
+                                           UNCLASSIFIED
+
+
+
+
+Response / notes
+
+
+
+
+1.6 Recommendations
+Top three to five, ranked by risk reduction — not by ease of implementation.
+
+#                       Recommendation              Addresses                  Indicative effort
+
+
+1
+
+2
+
+3
+
+
+1.7 Residual risk
+What remains exposed if nothing changes.
+
+Response / notes
+
+
+
+
+2. Methodology and objectives
+2.1 Approach
+This engagement was conducted under the [ORGANISATION] Red Team Methodology v[X.Y], using
+the Get In / Stay In / Act model, under the Rules of Engagement dated [DATE] and the Letter of
+Authorisation dated [DATE].
+
+2.2 Adversary emulated
+
+
+
+
+                                           UNCLASSIFIED
+                                                  3/18
+                                              UNCLASSIFIED
+
+
+
+
+Field                                                           Value
+
+
+Adversary
+
+Basis                                                           □ Named group □ Composite
+
+Capability level emulated                                       □1□2□3□4
+
+Rationale for selection
+
+Threat profile reference / version
+
+Intelligence cut-off date
+
+ATT&CK release used
+
+
+        Interpreting severity against threat level. All findings in this report should be read
+        against the capability level emulated. A finding reachable at Level 1 is far more urgent than
+        the same finding reachable only at Level 3, because far more actors can reach it.
+
+2.3 Objectives
+
+Objective ID                   Objective                   Category                Verification method
+
+
+O-01
+
+O-02
+
+O-03
+
+
+2.4 What was NOT emulated
+From the threat profile. Prevents this report being read as assurance against the adversary as a whole.
+
+Adversary behaviour                  Why excluded                       Residual risk left untested
+
+
+
+
+3. Scenario and scope
+
+Field                                                             Value
+
+
+Starting position
+
+Scenario / flow reference
+
+Execution window
+
+                                              UNCLASSIFIED
+                                                    4/18
+                                             UNCLASSIFIED
+
+
+
+
+Field                                                             Value
+
+
+Working days of execution
+
+Covert / open
+
+Social engineering in scope                                       □ Yes □ No
+
+Physical in scope                                                 □ Yes □ No
+
+
+In scope:
+Excluded:
+Constraints that affected the result:
+
+Response / notes
+
+
+
+
+4. Attack narrative
+        Chronological, numbered critical steps only. The full sequence of actions is at Appendix A.
+        Every step shall carry a defensive observation.
+
+Step 1 — [TITLE]
+
+Field                                               Value
+
+
+Date and time (UTC)
+
+Action taken
+
+Intent
+
+Result
+
+Technique                                           [ATT&CK ID and name]
+
+Evidence                                            [reference]
+
+Defensive observation                               □ Prevented □ Detected and alerted □ Telemetry
+                                                    only □ No visibility. Detail:
+
+
+                                             UNCLASSIFIED
+                                                   5/18
+                                             UNCLASSIFIED
+
+
+
+Step 2 — [TITLE]
+
+Field                                                            Value
+
+
+Date and time (UTC)
+
+Action taken
+
+Intent
+
+Result
+
+Technique
+
+Evidence
+
+Defensive observation
+
+
+(repeat per critical step)
+
+Attack path diagram
+(insert diagram: starting position to each host/account to objectives, with techniques labelled and control
+engagements marked distinctly)
+
+
+
+
+5. Detection and response assessment
+        Built from reconciliation with the defensive element. Record each control stage separately. A
+        blocked action can demonstrate prevention but is not automatically a valid opportunity to
+        measure telemetry or detection for the intended effect.
+Action and observability record
+
+                  Start / end                           Intended effect   Telemetry ref /   Alert ref /
+Action ID         (UTC)            Attempt result       reached?          first event       created (UTC)
+
+
+                                   Not attempted /      □ Yes □ No
+                                   substituted /
+                                   blocked /
+                                   executed
+
+
+
+
+                                             UNCLASSIFIED
+                                                     6/18
+                                             UNCLASSIFIED
+
+
+
+                  Start / end                            Intended effect    Telemetry ref /   Alert ref /
+Action ID         (UTC)         Attempt result           reached?           first event       created (UTC)
+
+
+
+
+Investigation, containment and recovery record
+
+                  First             First effective
+                  examination       containment              Access         Recovery
+                  (UTC) /           (UTC) /                  removed        complete          Assessment /
+Action ID         evidence          evidence                 (UTC)          (UTC)             limitation
+
+
+
+
+5.1 Timing summary
+     Use the approved definitions in T04. “Not observed by the end of the window” is censored,
+     not zero. Report counts and distributions; do not imply precision the evidence lacks.
+
+                      Measurement
+                      window and
+Measure ID /          event
+name                  definition      Sample (n)       Observed        Censored    Median        Range
+
+
+Time to telemetry
+
+Time to alert
+
+Time to
+examination
+
+Time to respond
+
+Time to contain
+
+Time to recover
+
+                                             UNCLASSIFIED
+                                                      7/18
+                                            UNCLASSIFIED
+
+
+
+                    Measurement
+                    window and
+Measure ID /        event
+name                definition       Sample (n)       Observed       Censored       Median       Range
+
+
+Presence
+
+
+
+Timing-data source, validation and limitations
+
+
+
+
+5.2 Coverage gap profile
+     The three categories have different owners, costs and timescales. This is the table that converts
+     findings into a budget conversation.
+
+                                                                                               Locally
+Gap category             Count         Accountable owner          Required action              agreed target
+
+
+No usable                              Platform / endpoint        Establish or repair the
+telemetry                              engineering                source and validate data
+                                                                  quality
+
+Telemetry present,                     Detection                  Design and validate
+no effective                           engineering                detection against replay
+detection
+
+Alert generated,                       Defensive operations       Correct capacity, routing,
+not examined in                        management                 priority or procedure and
+the required                                                      re-exercise
+window
+
+
+5.3 Prediction vs. reality
+From the attack path hypotheses written before execution. The gap between what the organisation believed
+its controls do and what they actually did.
+
+Control                   Predicted outcome                 Actual outcome            Gap
+
+
+
+
+                                            UNCLASSIFIED
+                                                     8/18
+                                 UNCLASSIFIED
+
+
+
+6. Technique and control coverage
+Planned-action outcome
+
+               Tactic /                                     Reason if not
+               ATT&CK ID   Procedure                        attempted or
+Action ID      and name    used           Outcome           substituted     Evidence ref
+
+
+A-01                                      Not attempted
+                                          / substituted /
+                                          blocked /
+                                          executed
+
+A-02
+
+A-03
+
+A-04
+
+A-05
+
+A-06
+
+A-07
+
+A-08
+
+A-09
+
+A-10
+
+A-11
+
+A-12
+
+A-13
+
+A-14
+
+A-15
+
+
+Control-stage outcome
+
+
+
+
+                                 UNCLASSIFIED
+                                       9/18
+                                               UNCLASSIFIED
+
+
+
+
+Action ID   Prevented   Executed   Usable telemetry   Alert   Investigated   Contained   Recovered
+
+
+A-01        □           □          □                  □       □              □ N/A       □ N/A
+
+A-02        □           □          □                  □       □              □ N/A       □ N/A
+
+A-03        □           □          □                  □       □              □ N/A       □ N/A
+
+A-04        □           □          □                  □       □              □ N/A       □ N/A
+
+A-05        □           □          □                  □       □              □ N/A       □ N/A
+
+A-06        □           □          □                  □       □              □ N/A       □ N/A
+
+A-07        □           □          □                  □       □              □ N/A       □ N/A
+
+A-08        □           □          □                  □       □              □ N/A       □ N/A
+
+A-09        □           □          □                  □       □              □ N/A       □ N/A
+
+A-10        □           □          □                  □       □              □ N/A       □ N/A
+
+A-11        □           □          □                  □       □              □ N/A       □ N/A
+
+A-12        □           □          □                  □       □              □ N/A       □ N/A
+
+A-13        □           □          □                  □       □              □ N/A       □ N/A
+
+A-14        □           □          □                  □       □              □ N/A       □ N/A
+
+A-15        □           □          □                  □       □              □ N/A       □ N/A
+
+
+
+
+                                               UNCLASSIFIED
+                                                      10/18
+                                             UNCLASSIFIED
+
+
+
+                                                          Exclusions /                     Quality or
+Measure               Numerator          Denominator      censored          Result         uncertainty
+
+
+Prevention
+
+Execution
+
+Telemetry
+
+Detection
+
+Examination
+
+Containment
+
+Recovery
+
+
+
+
+7. Positive observations
+       Mandatory. Controls, detections, response actions and design decisions that worked. A
+       report without this section is inaccurate and will be read as an attack on the defenders.
+
+                                                   What it prevented or
+#                          Observation             detected                      Recommendation
+
+
+P-01                                                                             Maintain / extend to:
+
+P-02
+
+P-03
+
+P-04
+
+P-05
+
+
+
+
+8. Findings
+Record full detail for each finding on pro forma T09. Summary table:
+
+                                                                 Affected
+ID                 Title          Severity       Category        assets         Owner         Target date
+
+
+RT-[NNN]-001
+
+RT-[NNN]-002
+
+RT-[NNN]-003
+
+
+                                             UNCLASSIFIED
+                                                  11/18
+                                             UNCLASSIFIED
+
+
+
+                                                                 Affected
+ID                 Title          Severity       Category        assets         Owner       Target date
+
+
+RT-[NNN]-004
+
+RT-[NNN]-005
+
+
+
+Severity                                                       Count
+
+
+Critical
+
+High
+
+Medium
+
+Low
+
+Informational
+
+
+Disputed severities (customer position recorded):
+
+                                                      Assessed organisation’s
+Finding                 Red team assessment           assessment                  Basis stated
+
+
+
+
+9. Social engineering results
+Rates only. Individual results are never reported.
+
+Metric                                                              Value
+
+
+Emails sent
+
+Delivery rate
+
+Click rate
+
+Credential submission rate
+
+Report rate
+
+Time to first user report
+
+
+                                             UNCLASSIFIED
+                                                     12/18
+                                             UNCLASSIFIED
+
+
+
+Assessment:
+
+Response / notes
+
+
+
+
+10. Conclusion and risk statement
+10.1 Overall assessment
+
+Response / notes
+
+
+
+
+10.2 The most important thing in this report
+One paragraph. If the reader acts on one thing, this is it.
+
+Response / notes
+
+
+
+
+10.3 Residual risk
+
+Response / notes
+
+
+
+
+                                             UNCLASSIFIED
+                                                   13/18
+                                              UNCLASSIFIED
+
+
+
+
+Response / notes
+
+
+
+
+10.4 Recommended next assessment
+
+Field                                                             Value
+
+
+Suggested type
+
+Suggested timing
+
+Suggested focus
+
+
+
+
+Appendices
+Appendix A — Full timeline
+
+#                Time (UTC)      Actor          Action          Host           Result         Evidence ref
+
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+
+Appendix B — Activity record
+        Delivered to the Trusted Agent at culmination. A complete timestamped record of red team
+        activity, with source addresses, enabling the defensive element to reconcile its telemetry and
+        distinguish red team activity from any other.
+
+
+                                              UNCLASSIFIED
+                                                    14/18
+                                     UNCLASSIFIED
+
+
+
+Appendix C — Indicators of compromise generated
+
+Type                     Indicator            Purpose                       Period active
+
+
+
+
+Appendix D — Evidence index
+Collection and provenance
+
+                                     Original source /   Collector /             Collected (UTC)
+Evidence ID        Description       path or query       method                  and known offset
+
+
+E-001
+
+E-002
+
+E-003
+
+E-004
+
+E-005
+
+E-006
+
+E-007
+
+E-008
+
+
+Integrity and handling
+
+                                     Original                                   Transformation,
+                   Hash algorithm    repository          Classification /       redaction or
+Evidence ID        and value         location            access                 working-copy ref
+
+
+E-001
+
+
+
+                                     UNCLASSIFIED
+                                           15/18
+                                            UNCLASSIFIED
+
+
+
+                                            Original                                 Transformation,
+                        Hash algorithm      repository            Classification /   redaction or
+Evidence ID             and value           location              access             working-copy ref
+
+
+E-002
+
+E-003
+
+E-004
+
+E-005
+
+E-006
+
+E-007
+
+E-008
+
+
+Transfer and access record, where chain of custody is required
+
+                                                                      Date / time
+Evidence ID       From / to        Person           Purpose           (UTC)            Integrity verified
+
+
+                                                                                       □
+
+                                                                                       □
+
+                                                                                       □
+
+
+Appendix E — Cleanup attestation
+Signed pro forma T12 attached.
+
+Field                                                                      Value
+
+
+All modifications removed and verified                                      □ Yes □ No — outstanding
+                                                                            items transferred to:
+
+Infrastructure decommissioned                                               □
+
+Credentials destroyed                                                       □
+
+C2 tasking, listeners, kill switches and delayed tasks disabled             □
+
+Certificates, tokens, keys and engagement channels revoked or closed        □
+
+Backup / image restoration assessed for artefact reintroduction             □
+
+Late-callback monitoring completed or transferred to a named owner          □
+
+Attested by
+
+
+                                            UNCLASSIFIED
+                                                   16/18
+                                           UNCLASSIFIED
+
+
+
+Appendix F — Deconfliction records
+T07 records attached.
+
+Appendix G — ROE changes
+ROE Appendix 9 attached.
+
+
+
+
+Report quality sign-off
+
+#                       Check                                                     ✓
+
+
+1                       Executive summary standalone, under 2 pages,              □
+                        jargon-free
+
+2                       Every claim traceable to referenced evidence              □
+
+3                       Positive observations present and substantive             □
+
+4                       Every narrative step has a defensive observation          □
+
+5                       Gap profile distinguishes no usable telemetry / no        □
+                        effective detection / alert not examined
+
+6                       No individual named or identifiable                       □
+
+7                       No credentials, tokens, keys or bulk sensitive data       □
+                        anywhere
+
+8                       Screenshots redacted, timestamps visible                  □
+
+9                       Severity ratings consistent                               □
+
+10                      Every finding has a root cause, not a restated            □
+                        symptom
+
+11                      Every finding has owner, target date, retest method       □
+
+12                      Unpreventable findings carry a detection                  □
+                        recommendation
+
+13                      Threat level stated and severity interpreted against it   □
+
+14                      Activity record and cleanup attestation attached          □
+
+15                      Classification and distribution correct                   □
+
+16                      Reviewed by someone who did not execute                   □
+
+17                      Evidence IDs, hashes, originals and report references     □
+                        reconcile
+
+
+
+                                           UNCLASSIFIED
+                                                  17/18
+                                        UNCLASSIFIED
+
+
+
+
+#                    Check                                                ✓
+
+
+18                   Timing results show sample, censored observations    □
+                     and limitations
+
+19                   Every ratio states numerator, denominator and        □
+                     exclusions
+
+20                   Comparisons identify scope, threat, ATT&CK and       □
+                     data-source changes
+
+21                   Cleanup covers C2, secrets, channels, restoration,   □
+                     backups and late effects
+
+
+
+                             Name                     Signature               Date
+
+
+Author (Red Team Lead)
+
+QA reviewer
+
+
+
+
+                                        UNCLASSIFIED
+                                              18/18
+

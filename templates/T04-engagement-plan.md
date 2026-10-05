@@ -1,0 +1,286 @@
+# T04 — Engagement Plan
+
+> Used in **Phase 3**. Internal Red Team document. Not distributed to the customer beyond
+> the Trusted Agent. Closed out at Gate G3.
+
+| Field | Value |
+|---|---|
+| Engagement reference | |
+| Code name | |
+| Red Team Lead | |
+| Plan version | |
+| Date | |
+
+---
+
+## 1. Scenario
+
+| Item | Value |
+|---|---|
+| Scenario ID | SC-01 |
+| Threat profile reference / version | |
+| ATT&CK release | |
+
+**1.1 Premise** *(the adversary, its purpose, and the point in its campaign at which the engagement commences)*
+
+| Response / notes |
+|---|
+| |
+| |
+| |
+| |
+**1.2 Starting position**
+
+☐ External, no access ☐ Assumed breach — user workstation ☐ Assumed breach — server
+☐ Insider ☐ Supply chain
+
+**Detail of the starting position provided:**
+
+| Item | Detail | Provided by | Date |
+|---|---|---|---|
+| Host / account / access | | | |
+
+**1.3 Objectives** *(from the ROE)*
+
+| Objective ID | Objective | Time box | Primary hypothesis |
+|---|---|---|---|
+| O-01 | | | H-__ |
+| O-02 | | | H-__ |
+| O-03 | | | H-__ |
+
+---
+
+## 2. Phasing
+
+| Stage | Days | Intent | Key techniques | Decision point |
+|---|---|---|---|---|
+| **Get In** | | | | |
+| **Stay In** | | | | |
+| **Act** | | | | |
+
+**2.1 Decision points** *(where the plan branches based on what is found)*
+
+| # | Decision point | If A to | If B to |
+|---|---|---|---|
+| 1 | | | |
+
+**2.2 Contingencies**
+
+| If this fails | Fallback |
+|---|---|
+| Primary initial access | |
+| Primary C2 channel | |
+| Primary attack path | |
+
+---
+
+## 3. Team and assignments
+
+| Operator | Role | Focus area | Availability |
+|---|---|---|---|
+| | | | |
+| | | | |
+
+**Role separation and safeguards:**
+
+| Person | Roles held | Conflict check | Required separation, supervision or external review |
+|---|---|---|---|
+| | | ☐ Clear ☐ Re-scope required | |
+
+> Prohibited role combinations in Annex A are non-waivable. Where separation cannot be
+> achieved, reduce the activity, conduct it openly, or obtain qualified external support.
+
+---
+
+## 4. Infrastructure
+
+### 4.1 Design
+
+| Tier | Purpose | Components | Provider | Status |
+|---|---|---|---|---|
+| 1 — Phishing / initial access | | | | ☐ Built ☐ Tested |
+| 2 — Short-haul / interactive | | | | ☐ Built ☐ Tested |
+| 3 — Long-haul / persistence | | | | ☐ Built ☐ Tested |
+
+### 4.2 Infrastructure inventory
+
+| Asset ID | Asset type | Identifier | Provider | Tier | Purpose | Created | By | Decommission method | Removal date (UTC) | Verified by |
+|---|---|---|---|---|---|---|---|---|---|---|
+| INF-001 | | | | | | | | | | |
+| INF-002 | | | | | | | | | | |
+| INF-003 | | | | | | | | | | |
+| INF-004 | | | | | | | | | | |
+| INF-005 | | | | | | | | | | |
+| INF-006 | | | | | | | | | | |
+| INF-007 | | | | | | | | | | |
+| INF-008 | | | | | | | | | | |
+
+### 4.3 Standards check
+
+| # | Check | ✔ |
+|---|---|---|
+| 1 | All C2 traffic encrypted | ☐ |
+| 2 | Team server not reachable from the internet | ☐ |
+| 3 | Automatic C2 logging enabled and verified | ☐ |
+| 4 | No infrastructure or naming reused from a previous engagement | ☐ |
+| 5 | Every asset in the inventory with a decommissioning owner | ☐ |
+| 6 | At least two independent channels available per stage | ☐ |
+| 7 | Source and target providers permit every planned activity | ☐ |
+| 8 | C2 kill switches and expiry controls tested | ☐ |
+
+### 4.4 Provider and third-party recheck
+
+| Provider / party and service | T02 permission row / evidence ref | Conditions and notice | Approval expiry | Rechecked (UTC) | By | Valid for plan? |
+|---|---|---|---|---|---|---|
+| | | | | | | ☐ |
+| | | | | | | ☐ |
+| | | | | | | ☐ |
+
+---
+
+## 5. Tooling
+
+| Tool | Version | Purpose | Lab-tested | Artefacts it leaves | Approval level |
+|---|---|---|---|---|---|
+| | | | ☐ | | |
+| | | | ☐ | | |
+| | | | ☐ | | |
+| | | | ☐ | | |
+
+> No tool enters the target environment untested. Laboratory testing shall use a build
+> representative of the target.
+
+---
+
+## 6. Operational risk assessment
+
+| Risk ID | Technique / activity | What could go wrong | Likelihood | Impact | Mitigation | Rollback | Means of detecting harm | Approval level |
+|---|---|---|---|---|---|---|---|---|
+| R-01 | | | L/M/H | L/M/H | | | | |
+| R-02 | | | | | | | | |
+| R-03 | | | | | | | | |
+| R-04 | | | | | | | | |
+| R-05 | | | | | | | | |
+| R-06 | | | | | | | | |
+| R-07 | | | | | | | | |
+| R-08 | | | | | | | | |
+
+**Conditional high-impact activities requiring written approval:**
+
+> No entry may override an absolute prohibition. If an action has no credible rollback or
+> safer proof method, revise the plan.
+
+| Activity | Rationale | Approved by | Date |
+|---|---|---|---|
+| | | | |
+| | | | |
+
+---
+
+## 7. Data collection
+
+| Item | Value |
+|---|---|
+| Evidence repository | |
+| Encryption | |
+| Access list | |
+| **Timezone — all systems** | **UTC** |
+| Approved time source | |
+| Permitted clock offset / tolerance | |
+| Measured offsets and check time | |
+| Automatic session logging configured on | |
+| Automatic C2 logging configured | ☐ Verified |
+| Screenshot standard | Full window, visible timestamp, redacted at capture |
+| Time sync verified across all operator systems | ☐ Date: |
+| Evidence identifier convention | |
+| Approved hash algorithm | |
+| Original evidence repository / working-copy area | |
+
+### 7.1 Measure specifications
+
+> Complete one row for every measure that will appear in T08. Attach detail where a row is
+> insufficient. “Not observed” results and measurements ending before an event occurs are
+> recorded as censored, not as zero.
+
+| Measure ID and decision served | Definition or start / end events | Source and owner | Window | Numerator / denominator or sample | Exclusions / censoring | Validation and target rationale |
+|---|---|---|---|---|---|---|
+| M-01 | | | | | | |
+| M-02 | | | | | | |
+| M-03 | | | | | | |
+
+---
+
+## 8. Communications
+
+| Channel | Detail | Tested |
+|---|---|---|
+| Internal red team | | ☐ |
+| Deconfliction line | | ☐ **live call placed** |
+| SITREP delivery | | ☐ |
+| Emergency | | ☐ |
+
+**Contact verification** *(all numbers called)*: Date ________ By ________
+
+---
+
+## 9. Cleanup plan
+
+*Every planned modification and its removal method. Feeds T12.*
+
+| Cleanup ID | Planned modification | Removal method | Owner | Reversible? |
+|---|---|---|---|---|
+| MOD-001 | | | | ☐ |
+| MOD-002 | | | | ☐ |
+| MOD-003 | | | | ☐ |
+
+| Restoration control | Method / reference | Owner | Verifier | Trigger or due time |
+|---|---|---|---|---|
+| Deactivate C2 tasking and listeners | | | | |
+| Exercise kill switches and expiry | | | | |
+| Revoke credentials, tokens, certificates and keys | | | | |
+| Remove payloads, persistence, accounts and configuration changes | | | | |
+| Preserve required logs, then decommission infrastructure | | | | |
+| Restore secure communications and ordinary monitoring | | | | |
+| Check backup or image restoration will not reintroduce artefacts | | | | |
+| Monitor and resolve late callbacks or delayed tasks | | | | |
+
+---
+
+## 10. Schedule
+
+| Date | Activity | Owner |
+|---|---|---|
+| | Kick-off | |
+| | Execution begins | |
+| | Mid-point steering review | |
+| | Execution ends | |
+| | Cleanup complete | |
+| | Draft report | |
+| | Technical debrief | |
+| | Final report | |
+| | Executive brief | |
+
+---
+
+## 11. Gate G3 checklist
+
+| # | Criterion | ✔ |
+|---|---|---|
+| 1 | Plan complete and briefed to all operators | ☐ |
+| 2 | Infrastructure built, tested, inventoried, decommissioning documented | ☐ |
+| 3 | Every tool and technique lab-tested | ☐ |
+| 4 | Evidence repository ready; all systems on UTC | ☐ |
+| 5 | Operational risk assessment complete with rollbacks | ☐ |
+| 6 | Deconfliction channel tested with a live call | ☐ |
+| 7 | Cleanup plan exists for every planned modification | ☐ |
+| 8 | **The team can pause all activity within 15 minutes of a stop instruction** | ☐ |
+| 9 | Provider and third-party permissions rechecked and evidenced | ☐ |
+| 10 | Clock offsets are within tolerance and recorded | ☐ |
+| 11 | Measures have approved definitions, sources and quality rules | ☐ |
+| 12 | C2 kill switches, expiry and emergency disablement tested | ☐ |
+| 13 | Cleanup, restoration, backup and late-callback owners confirmed | ☐ |
+
+| | Name | Signature | Date |
+|---|---|---|---|
+| Red Team Lead | | | |
+

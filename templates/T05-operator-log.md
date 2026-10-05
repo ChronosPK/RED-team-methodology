@@ -1,0 +1,113 @@
+# T05 — Operator Log
+
+> Used continuously during **Phase 4**. Written **contemporaneously** — as the action is
+> taken, not reconstructed at the end of the day.
+>
+> The operator log is the most important log in the engagement. Session and C2 logs record
+> *what* happened; only the operator can record *why*, what they expected, and how they
+> interpreted the result. That is what makes the report defensible six months later.
+
+| Field | Value |
+|---|---|
+| Engagement reference | |
+| Operator | |
+| Date (UTC) | |
+| Approved time source | |
+| Measured clock offset / checked (UTC) | |
+
+---
+
+## Rules
+
+1. **UTC for every timestamp.** Record the measured offset from the approved source; do
+   not silently rewrite a discrepant timestamp.
+2. **Log every action, including failures.** A blocked technique is evidence a control
+   worked, and is often the most valuable finding.
+3. **No gaps.** An unexplained gap during an incident window is indistinguishable from
+   concealment.
+4. **Field 12 (Description) and field 15 (System modification) are mandatory.** They are
+   the two most commonly skipped and the two most consequential — one turns the log into an
+   explanation, the other makes cleanup possible.
+5. **Reconcile against C2 and session logs at end of day.** Resolve discrepancies the same
+   day.
+
+---
+
+## Log entries
+
+### Entry [N]
+
+| # | Field | Value |
+|---|---|---|
+| 1 | Start (UTC) | |
+| 2 | End (UTC) | |
+| 3 | Operator | |
+| 4 | Source IP | |
+| 5 | Destination IP | |
+| 6 | Destination port | |
+| 7 | Destination system | |
+| 8 | Pivot IP / port | |
+| 9 | URL | |
+| 10 | Tool / application | |
+| 11 | Command | |
+| 12 | **Description — what I was trying to achieve and why** | |
+| 13 | Output (summary; full output ref.) | |
+| 14 | Result | ☐ Success ☐ Failure ☐ Partial ☐ **Blocked by control** |
+| 15 | **System modification** *(feeds T12)* | |
+| 16 | Evidence reference | |
+| 17 | Comments — interpretation, decisions, anomalies | |
+| 18 | Stable action ID / T12 item ID where applicable | |
+
+---
+
+## Compact chronological log
+
+Use one row for each action. Continue on additional copies of this page when needed.
+
+| Start | End | Op | Src IP | Dst IP | Port | Dst system | Tool | Command | Description | Result | Modification | Evidence |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+
+---
+
+## End-of-day reconciliation
+
+| # | Check | ✔ |
+|---|---|---|
+| 1 | Every C2 task in the framework log has a corresponding operator log entry | ☐ |
+| 2 | Every session log segment is accounted for | ☐ |
+| 3 | Every evidence file referenced exists in the repository | ☐ |
+| 4 | Every system modification is recorded in T12 | ☐ |
+| 5 | No unexplained time gaps | ☐ |
+| 6 | Discrepancies resolved | ☐ |
+| 7 | Material evidence IDs exist and hashes reconcile at the first stable collection point | ☐ |
+| 8 | Clock offset remained within tolerance, or affected intervals are annotated | ☐ |
+
+**Discrepancies found and resolution:**
+
+| Response / notes |
+|---|
+| |
+| |
+| |
+
+| | Name | Signature | Date |
+|---|---|---|---|
+| Operator | | | |
+| Reviewed by RT Lead | | | |
+

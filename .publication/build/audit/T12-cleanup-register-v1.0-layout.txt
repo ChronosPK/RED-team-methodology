@@ -1,0 +1,554 @@
+                                              UNCLASSIFIED
+
+
+
+T12 — Cleanup and Rollback Register
+        Populated during Phase 4, as each modification is made — not reconstructed at the end.
+        Closed out at Gate G5.
+        Forgotten implants, live accounts and orphaned infrastructure are the worst red team incidents.
+        They create real, uncontrolled risk that outlives the authorisation, and they are discovered by
+        someone else.
+        Assign the stable item IDs below when an item is first recorded. Do not renumber or reuse an
+        ID. Carry it into T05, T08 and any transferred action.
+
+Field                                                              Value
+
+
+Engagement reference
+
+Code name
+
+Execution window
+
+Register owner
+
+
+
+
+                                              UNCLASSIFIED
+                                                     1/15
+                                                   UNCLASSIFIED
+
+
+
+
+1. System modifications
+
+                                                                                                        Verified by
+             Date/time               Host /   Modification             Removal   Removed                (2nd
+Item ID      (UTC)        Operator   system   made              Type   method    (UTC)     Removed by   person)
+
+
+MOD-001
+
+MOD-002
+
+MOD-003
+
+MOD-004
+
+MOD-005
+
+MOD-006
+
+MOD-007
+
+MOD-008
+
+MOD-009
+
+MOD-010
+
+MOD-011
+
+MOD-012
+
+
+
+
+                                                   UNCLASSIFIED
+                                                         2/15
+                                         UNCLASSIFIED
+
+
+
+Type codes: IMP implant/beacon · PER persistence · ACC account · GRP group membership · CRED
+credential · CFG configuration · FILE uploaded file · DATA written data · NET network change · OTH
+other
+
+
+
+
+                                         UNCLASSIFIED
+                                               3/15
+                                                                       UNCLASSIFIED
+
+
+
+
+2. Persistence mechanisms
+Listed separately because these are the ones that survive if missed.
+
+                                                                                       Established   Removed
+Item ID             Host            Mechanism                                 Detail   (UTC)         (UTC)     Removed by   Verified
+
+
+PER-001                            □ Scheduled task □ Service □ Run key □                                                   □
+                                   WMI subscription □ Startup folder □ DLL
+                                   hijack □ Other:
+
+PER-002                            □ Scheduled task □ Service □ Run key □                                                   □
+                                   WMI subscription □ Startup folder □ DLL
+                                   hijack □ Other:
+
+PER-003                            □ Scheduled task □ Service □ Run key □                                                   □
+                                   WMI subscription □ Startup folder □ DLL
+                                   hijack □ Other:
+
+PER-004                            □ Scheduled task □ Service □ Run key □                                                   □
+                                   WMI subscription □ Startup folder □ DLL
+                                   hijack □ Other:
+
+PER-005                            □ Scheduled task □ Service □ Run key □                                                   □
+                                   WMI subscription □ Startup folder □ DLL
+                                   hijack □ Other:
+
+PER-006                            □ Scheduled task □ Service □ Run key □                                                   □
+                                   WMI subscription □ Startup folder □ DLL
+                                   hijack □ Other:
+
+
+
+
+                                                                       UNCLASSIFIED
+                                                                             4/15
+                                                                UNCLASSIFIED
+
+
+
+
+3. Accounts, credentials and access
+
+                                                                    Created /
+                                                                    obtained                             Completed
+Item ID    Type                               Identifier   System   (UTC)       Action taken             (UTC)       By   Verified
+
+
+ACC-001     □ Account created □ Group                                           □ Deleted □ Reverted □                    □
+            added □ API key □ Token □ Cert                                      Reset □ Destroyed
+            □ Delegation □ Password changed
+
+ACC-002     □ Account created □ Group                                           □ Deleted □ Reverted □                    □
+            added □ API key □ Token □ Cert                                      Reset □ Destroyed
+            □ Delegation □ Password changed
+
+ACC-003     □ Account created □ Group                                           □ Deleted □ Reverted □                    □
+            added □ API key □ Token □ Cert                                      Reset □ Destroyed
+            □ Delegation □ Password changed
+
+ACC-004     □ Account created □ Group                                           □ Deleted □ Reverted □                    □
+            added □ API key □ Token □ Cert                                      Reset □ Destroyed
+            □ Delegation □ Password changed
+
+ACC-005     □ Account created □ Group                                           □ Deleted □ Reverted □                    □
+            added □ API key □ Token □ Cert                                      Reset □ Destroyed
+            □ Delegation □ Password changed
+
+ACC-006     □ Account created □ Group                                           □ Deleted □ Reverted □                    □
+            added □ API key □ Token □ Cert                                      Reset □ Destroyed
+            □ Delegation □ Password changed
+
+
+
+
+                                                                UNCLASSIFIED
+                                                                    5/15
+                                        UNCLASSIFIED
+
+
+
+Captured credentials:
+
+               Count /       Storage      Destruction   Destroyed
+Item ID        description   location     method        (UTC)       By   Verified
+
+
+CRED-001                                                                 □
+
+CRED-002                                                                 □
+
+CRED-003                                                                 □
+
+CRED-004                                                                 □
+
+CRED-005                                                                 □
+
+CRED-006                                                                 □
+
+CRED-007                                                                 □
+
+CRED-008                                                                 □
+
+
+
+
+                                        UNCLASSIFIED
+                                            6/15
+                                          UNCLASSIFIED
+
+
+
+
+4. Files and tooling
+
+Item ID            Host   Path   Description      Uploaded (UTC)   Removed (UTC)   By   Verified
+
+
+FILE-001                                                                                □
+
+FILE-002                                                                                □
+
+FILE-003                                                                                □
+
+FILE-004                                                                                □
+
+FILE-005                                                                                □
+
+FILE-006                                                                                □
+
+FILE-007                                                                                □
+
+FILE-008                                                                                □
+
+
+
+
+                                          UNCLASSIFIED
+                                               7/15
+                                    UNCLASSIFIED
+
+
+
+
+5. Data written to prove access
+
+                         What was     Marker        Removed
+Item ID      System      written      used          (UTC)         By        Verified
+
+
+DATA-001                                                                    □
+
+DATA-002                                                                    □
+
+DATA-003                                                                    □
+
+DATA-004                                                                    □
+
+DATA-005                                                                    □
+
+DATA-006                                                                    □
+
+DATA-007                                                                    □
+
+DATA-008                                                                    □
+
+
+
+
+6. Flags
+
+            Flag                     Placed by     Retrieved by   Removed
+Item ID     identifier   Location    (TA)          RT?            (UTC)     Verified
+
+
+FLAG-001                                           □                        □
+
+FLAG-002                                           □                        □
+
+FLAG-003                                           □                        □
+
+FLAG-004                                           □                        □
+
+FLAG-005                                           □                        □
+
+FLAG-006                                           □                        □
+
+FLAG-007                                           □                        □
+
+FLAG-008                                           □                        □
+
+
+
+
+                                    UNCLASSIFIED
+                                        8/15
+                                                    UNCLASSIFIED
+
+
+
+
+7. Infrastructure decommissioning
+
+                                                                   Logs preserved   Decommissioned
+Asset ID       Asset type   Identifier   Provider   Tier           first            (UTC)          By   Verified
+
+
+INF-001                                                            □                                    □
+
+INF-002                                                            □                                    □
+
+INF-003                                                            □                                    □
+
+INF-004                                                            □                                    □
+
+INF-005                                                            □                                    □
+
+INF-006                                                            □                                    □
+
+INF-007                                                            □                                    □
+
+INF-008                                                            □                                    □
+
+
+
+
+                                                    UNCLASSIFIED
+                                                           9/15
+                                             UNCLASSIFIED
+
+
+
+Includes: team servers, redirectors, domains, certificates, cloud resources, mail accounts, hosting accounts,
+phishing sites, payload hosting.
+
+
+
+
+                                             UNCLASSIFIED
+                                                   10/15
+                                                            UNCLASSIFIED
+
+
+
+
+8. Command and control, secrets and channels
+
+              Component / secret /        Identifier or   Disable, revoke   Completed        Late activity
+Item ID       channel                     reference       or close method   (UTC)       By   checked         Verified
+
+
+C2-001        Team server tasking                                                            □               □
+
+C2-002        Listener / redirector                                                          □               □
+
+C2-003        Kill switch / automatic                                                        □               □
+              expiry
+
+SEC-001       Certificate / signing key                                                      □               □
+
+SEC-002       API token / provider                                                           □               □
+              credential
+
+COM-001       Secure engagement channel                                                      □               □
+
+C2-004        Delayed task / scheduled                                                       □               □
+              callback
+
+OTH-001       Other                                                                          □               □
+
+
+
+
+                                                            UNCLASSIFIED
+                                                                  11/15
+                                        UNCLASSIFIED
+
+
+
+
+9. Restoration and delayed effects
+
+                             Agreed     Verification                      Second-
+                             restored   method /               Verified   person
+Control                      state      evidence       Owner   (UTC)      check
+
+
+Security controls changed                                                 □
+for the engagement
+
+Monitoring and alert                                                      □
+routing
+
+Services and configuration                                                □
+
+Backup / image                                                            □
+restoration will not
+reintroduce artefacts
+
+Secure communications                                                     □
+returned to ordinary state
+
+Late callbacks / delayed                                                  □
+tasks monitored through
+
+Residual provider                                                         □
+resources and billing
+checked
+
+
+
+
+                                        UNCLASSIFIED
+                                             12/15
+                                                                     UNCLASSIFIED
+
+
+
+
+10. Items that could NOT be removed or restored by the Red Team
+     Transferred in writing to the Trusted Agent as an open action with a named owner. These are not closed items.
+
+                                                            Basis on which it
+                      Item and original                     could not be                            Transferred to                     Target removal
+Transfer ID           ID                  Host / system     removed                Risk if left     (name)           Accepted (date)   date
+
+
+OUT-001
+
+OUT-002
+
+OUT-003
+
+OUT-004
+
+OUT-005
+
+OUT-006
+
+OUT-007
+
+OUT-008
+
+
+
+
+                                                                     UNCLASSIFIED
+                                                                           13/15
+                                        UNCLASSIFIED
+
+
+
+
+11. Verification summary
+
+                                Items         Items          Items         Items
+#        Category               recorded      removed        verified      transferred   Outstanding
+
+
+1        System
+         modifications
+
+2        Persistence
+
+3        Accounts and
+         credentials
+
+4        Files and tooling
+
+5        Data written
+
+6        Flags
+
+7        Infrastructure
+
+8        Command, secrets
+         and channels
+
+9        Restoration and
+         delayed effects
+
+         TOTAL
+
+
+
+
+12. Gate G5 attestation
+
+#                   Criterion                                                  ✓
+
+
+1                   Every item in this register is removed and verified by a   □
+                    second person
+
+2                   Items that could not be removed are transferred in         □
+                    writing with a named owner
+
+3                   All persistence mechanisms confirmed removed               □
+
+4                   All created accounts and access confirmed removed          □
+
+5                   All captured credentials destroyed and recorded            □
+
+6                   Infrastructure decommissioned; logs preserved first        □
+
+7                   Flags retrieved and removed                                □
+
+
+                                        UNCLASSIFIED
+                                              14/15
+                                           UNCLASSIFIED
+
+
+
+
+#                      Criterion                                                ✓
+
+
+8                      Evidence repository consolidated, integrity-verified,    □
+                       classified
+
+9                      C2 tasking, listeners, kill switches and delayed tasks   □
+                       disabled
+
+10                     Certificates, tokens, keys and engagement channels       □
+                       revoked or closed
+
+11                     Monitoring, security controls and services restored to   □
+                       the agreed state
+
+12                     Backup and image restoration checked for artefact        □
+                       reintroduction
+
+13                     Late-callback monitoring complete or transferred with    □
+                       a named owner and deadline
+
+14                     Defensive activity list delivered to the Trusted Agent   □
+
+15                     Internal hot-wash held                                   □
+
+
+I attest that the target environment and engagement infrastructure have been returned to
+the agreed state except for the items explicitly transferred in section 10.
+
+                                      Name                    Signature             Date
+
+
+Red Team Lead
+
+Verifying operator (did not perform
+the removals alone)
+
+
+I accept this attestation and the transferred items listed in section 10.
+
+                             Name                        Signature              Date
+
+
+Trusted Agent
+
+
+
+
+                                           UNCLASSIFIED
+                                                 15/15
+

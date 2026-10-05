@@ -1,0 +1,5524 @@
+              UNCLASSIFIED
+
+
+
+
+RED TEAM METHODOLOGY
+
+
+
+   ENGAGEMENT PRO FORMAS - T01 TO T12
+
+
+
+                Version 1.0
+
+
+                  2026
+
+
+
+
+              UNCLASSIFIED
+                   1/112
+UNCLASSIFIED
+
+
+
+
+UNCLASSIFIED
+    2/112
+                                                UNCLASSIFIED
+
+
+
+Contents
+T01 — Engagement Request and Qualification                                                                        9
+  1. The ask . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      9
+  2. Mission / business context . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        10
+  3. Instrument selection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      11
+  4. Minimum defensibility baseline . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        11
+  5. Draft objectives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      12
+  6. Governance readiness . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        12
+  7. Initial risk and effort assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      13
+  8. Gate G0 decision . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        13
+
+T02 — Rules of Engagement                                                                                        15
+  [ENGAGEMENT NAME] — [CODE NAME] . . . . . . . . . . . . . . . . . . . . . . . . . . . .                        15
+  Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        15
+
+1. Introduction                                                                                                  16
+   1.1 Purpose . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     16
+   1.2 References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    16
+   1.3 Scope of this document . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        16
+   1.4 Definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     16
+
+2. The engagement                                                                                                16
+   2.1 Category . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      16
+   2.2 Attributes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    16
+   2.3 Objectives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    17
+   2.4 Methodology . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       17
+   2.5 Activity types . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    17
+   2.6 Equipment and software . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        17
+   2.7 Threat profile . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    18
+
+3. Appointments                                                                                                  18
+   3.1 Independence and reporting safeguards         . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   18
+
+4. Conduct                                                                                                       19
+   4.1 Standing instructions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       19
+   4.2 Additions particular to this engagement . . . . . . . . . . . . . . . . . . . . . . . . . . . . .         19
+
+5. Deconfliction                                                                                                 19
+   5.1 Procedure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     19
+   5.2 Parameters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      19
+   5.3 Genuine intrusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       20
+
+6. Cessation                                                                                                     20
+
+7. Communications                                                                                                20
+
+8. Data handling                                                                                                 20
+
+9. Products                                                                                                      21
+
+10. Legal, authority and provider conditions                                                                     22
+   10.1 Applicability and authority record . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       22
+   10.2 Provider and third-party permission register . . . . . . . . . . . . . . . . . . . . . . . . . .         23
+
+11. Limitations                                                                                                  24
+
+12. Change control                                                                                               24
+
+13. Approval                                                                                                     24
+
+
+
+                                                UNCLASSIFIED
+                                                      3/112
+                                                UNCLASSIFIED
+
+
+
+APPENDIX 1 — IDENTIFICATION OF THE ASSESSED ORGANISATION                                                        24
+
+APPENDIX 2 — CONTACTS                                                                                           25
+
+APPENDIX 3 — AUTHORISED TARGET SPACE                                                                            26
+  3.1 Networks and addresses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        26
+  3.2 Identities and personnel groups . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       26
+  3.3 Physical locations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      26
+  3.4 Red team source addresses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .         27
+
+APPENDIX 4 — EXCLUDED TARGET SPACE                                                                              27
+  4.1 Individuals excluded from social engineering . . . . . . . . . . . . . . . . . . . . . . . . . . .        27
+  4.2 Periods of restriction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    28
+
+APPENDIX 5 — AUTHORISED ACTIONS                                                                                 28
+
+APPENDIX 6 — PROHIBITED ACTIONS                                                                                 28
+
+APPENDIX 7 — OBJECTIVES AND SUCCESS CRITERIA                                                                    29
+
+APPENDIX 8 — THREAT PROFILE                                                                                     29
+
+APPENDIX 9 — RECORD OF CHANGES                                                                                  30
+
+T03 — Threat Profile                                                                                            31
+  1. Adversary selection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      31
+  2. Adversary identity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     33
+  3. Motivation and goals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       33
+  4. Capability assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      33
+  5. Initial access . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   34
+  6. Tooling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    34
+  7. Infrastructure pattern . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     35
+  8. TTP set — the execution backbone . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           35
+  9. Known indicators . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       36
+  10. Techniques not emulated . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .         36
+  11. Attack path hypotheses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        37
+  12. Target reconnaissance summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           38
+  13. Sign-off . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    38
+
+T04 — Engagement Plan                                                                                           40
+  1. Scenario . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     40
+  2. Phasing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    41
+  3. Team and assignments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .         41
+  4. Infrastructure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     42
+  5. Tooling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    44
+  6. Operational risk assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        45
+  7. Data collection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    46
+  8. Communications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       47
+  9. Cleanup plan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     47
+  10. Schedule . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      48
+  11. Gate G3 checklist . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       48
+
+T05 — Operator Log                                                                                              50
+  Rules . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   50
+  Log entries . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     50
+  Compact chronological log . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       52
+  End-of-day reconciliation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       54
+
+T06 — Situation Report (SITREP)                                                                                 55
+  1. Current position . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     55
+
+
+                                                UNCLASSIFIED
+                                                      4/112
+                                                UNCLASSIFIED
+
+
+
+   2. Activity this period . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    55
+   3. Objectives progress . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     56
+   4. Notable observations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      56
+   5. Defender interaction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    56
+   6. Risks and issues . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    57
+   7. Deconfliction events this period . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      57
+   8. ROE changes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       57
+   9. Plan for next period . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    57
+   10. Support required from the Trusted Agent . . . . . . . . . . . . . . . . . . . . . . . . . . . .          58
+   11. Confirmation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     58
+
+T07 — Deconfliction Record                                                                                      59
+  1. The request . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      59
+  2. Red Team action . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        60
+  3. Determination . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      60
+  4. Defensive response evidence . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        61
+  5. ROE compliance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       62
+  6. Disclosure decision . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      62
+  7. Resumption . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       62
+  8. Sign-off . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   63
+
+T08 — Red Team Engagement Report                                                                                64
+  [ENGAGEMENT NAME] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .               64
+
+1. Executive summary                                                                                            64
+   1.1 The question the engagement was required to answer . . . . . . . . . . . . . . . . . . . . . .           64
+   1.2 Activity conducted . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     64
+   1.3 What happened . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        65
+   1.4 What worked . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      65
+   1.5 What did not work . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      65
+   1.6 Recommendations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        66
+   1.7 Residual risk . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    66
+
+2. Methodology and objectives                                                                                   66
+   2.1 Approach . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     66
+   2.2 Adversary emulated . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       66
+   2.3 Objectives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   67
+   2.4 What was NOT emulated . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .          67
+
+3. Scenario and scope                                                                                           67
+
+4. Attack narrative                                                                                             68
+   Step 1 — [TITLE] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       68
+   Step 2 — [TITLE] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       69
+   Attack path diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      69
+
+5. Detection and response assessment                                                                            69
+   5.1 Timing summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       70
+   5.2 Coverage gap profile . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     71
+   5.3 Prediction vs. reality . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   71
+
+6. Technique and control coverage                                                                               72
+
+7. Positive observations                                                                                        74
+
+8. Findings                                                                                                     74
+
+9. Social engineering results                                                                                   75
+
+10. Conclusion and risk statement                                                                               76
+
+
+                                                UNCLASSIFIED
+                                                      5/112
+                                               UNCLASSIFIED
+
+
+
+   10.1 Overall assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      76
+   10.2 The most important thing in this report . . . . . . . . . . . . . . . . . . . . . . . . . . . .         76
+   10.3 Residual risk . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   76
+   10.4 Recommended next assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           77
+
+Appendices                                                                                                      77
+  Appendix A — Full timeline . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .          77
+  Appendix B — Activity record . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .          77
+  Appendix C — Indicators of compromise generated . . . . . . . . . . . . . . . . . . . . . . . . .             78
+  Appendix D — Evidence index . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           78
+  Appendix E — Cleanup attestation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .          79
+  Appendix F — Deconfliction records . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .          80
+  Appendix G — ROE changes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .            80
+
+Report quality sign-off                                                                                         80
+
+T09 — Finding                                                                                                   82
+  RT-[ENGAGEMENT]-[NNN] — [TITLE] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                   82
+  1. Affected assets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    82
+  2. Description . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    82
+  3. How it was exploited . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       83
+  4. Evidence . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     83
+  5. Mission / business impact . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        83
+  6. Root cause . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     84
+  7. Recommendation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .         84
+  8. Detection opportunity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        85
+  9. Ownership and remediation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .          86
+  10. Retest . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    86
+  11. Dispute / risk acceptance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       86
+
+T10 — Letter of Authorisation                                                                                   88
+  LETTER OF AUTHORISATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                   88
+
+Immediate-Verification Card                                                                                     91
+  Operator instructions if challenged . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       91
+
+T11 — Lessons Learned                                                                                           92
+
+Part 1 — Lessons for the organisation                                                                           92
+  1.1 What worked . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       92
+  1.2 What did not . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      92
+  1.3 Surprises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     92
+  1.4 Process observations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      93
+  1.5 Detections built or improved . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        93
+
+Part 2 — Lessons for the Red Team                                                                               93
+  2.1 Planning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      93
+  2.2 Execution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     94
+  2.3 Errors and near-misses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      94
+  2.4 Process and safety . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      94
+  2.5 Reporting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     95
+  2.6 Capability gaps identified . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      95
+
+Part 3 — Methodology changes                                                                                    96
+
+Part 4 — Measures and comparison quality                                                                        96
+
+Part 5 — Actions                                                                                                97
+
+T12 — Cleanup and Rollback Register                                                                             98
+
+
+                                               UNCLASSIFIED
+                                                      6/112
+                                            UNCLASSIFIED
+
+
+
+1. System modifications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       99
+2. Persistence mechanisms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      101
+3. Accounts, credentials and access . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      102
+4. Files and tooling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   104
+5. Data written to prove access . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      105
+6. Flags . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   105
+7. Infrastructure decommissioning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        106
+8. Command and control, secrets and channels . . . . . . . . . . . . . . . . . . . . . . . . . . .           108
+9. Restoration and delayed effects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       109
+10. Items that could NOT be removed or restored by the Red Team . . . . . . . . . . . . . . .                110
+11. Verification summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       111
+12. Gate G5 attestation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      111
+
+
+
+
+                                            UNCLASSIFIED
+                                                   7/112
+UNCLASSIFIED
+
+
+
+
+UNCLASSIFIED
+    8/112
+                                             UNCLASSIFIED
+
+
+
+T01 — Engagement Request and Qualification
+        Used in Phase 0. Completed by the Red Team Lead with the requesting customer. Ends
+        with an accept/decline decision at Gate G0.
+
+Field                                                             Value
+
+
+Request reference                                                 RT-REQ-[YYYY]-[NNN]
+
+Date received
+
+Requested by (name, role)
+
+Target organisation / division
+
+Requested timeframe
+
+Red Team Lead assessing
+
+
+
+
+1. The ask
+1.1 What is being requested, in the customer’s words?
+
+Response / notes
+
+
+
+
+1.2 What decision will the customer make with the result?
+        If this cannot be answered, there is no engagement. Stop here.
+
+Response / notes
+
+
+
+
+1.3 What prompted the request now? (New system, incident, audit finding, regulatory pressure,
+leadership request, scheduled cycle)
+
+
+
+
+                                             UNCLASSIFIED
+                                                   9/112
+                                              UNCLASSIFIED
+
+
+
+
+Response / notes
+
+
+
+
+2. Mission / business context
+2.1 Which mission or business service is at risk? Start from the service, not the systems.
+
+Response / notes
+
+
+
+
+2.2 What does failure of that service look like? Operational, financial, safety, reputational, mission
+impact.
+
+Response / notes
+
+
+
+
+2.3 Which systems, identities, data and suppliers support that service?
+
+Type                             Identifier                           Owner
+
+
+
+
+2.4 What must absolutely not be disrupted, and during which periods?
+
+Response / notes
+
+
+
+
+                                              UNCLASSIFIED
+                                                  10/112
+                                            UNCLASSIFIED
+
+
+
+
+Response / notes
+
+
+
+
+3. Instrument selection
+3.1 What does the customer actually need?
+
+If they want. . .                            Deliver. . .                       ✓
+
+
+A list of weaknesses across an estate        Vulnerability assessment — refer   □
+                                             elsewhere
+
+Proof a specific system can be broken        Penetration test                   □
+
+To know whether their detections work        Purple team exercise (SL-4)        □
+
+To know whether a realistic attack           Red team engagement (SL-1 /        □
+achieves impact undetected                   SL-2)
+
+To train their team under pressure           Exercise red team (SL-3)           □
+
+Regulatory or audit assurance                Threat-led test with formal        □
+                                             attestation
+
+
+3.2 Selected instrument and rationale:
+
+Response / notes
+
+
+
+
+4. Minimum defensibility baseline
+See the Red Team Methodology, paragraph 4.5. Applies to SL-1 and SL-2.
+
+#                   Condition                                   Met?                Evidence / note
+
+
+1                   Centralised log collection exists for       □
+                    endpoints and identity
+
+2                   Someone reviews alerts, with defined        □
+                    hours
+
+
+                                            UNCLASSIFIED
+                                                   11/112
+                                            UNCLASSIFIED
+
+
+
+
+#                   Condition                                   Met?                   Evidence / note
+
+
+3                   An incident response process exists on      □
+                    paper
+
+4                   Asset ownership is known well enough to     □
+                    route a finding
+
+5                   A previous assessment has been              □
+                    remediated
+
+
+Conditions unmet: ____ / 5
+       Three or more unmet to recommend a purple team exercise or tabletop instead, in writing.
+
+
+
+5. Draft objectives
+Maximum three. Specific and verifiable. See Annex D, paragraph D.5.
+
+                                                                      Category
+Objective ID                       Draft objective                    (Protect/Detect/Respond/Restore)
+
+
+O-01
+
+O-02
+
+O-03
+
+
+
+
+6. Governance readiness
+
+Question                                                                   Answer
+
+
+Which legal entity owns each system, identity, facility and dataset
+proposed for scope?
+
+Who holds actual System Authority and can consent to access?
+
+Who can accept operational risk as Approving Authority?
+
+Are authority and risk acceptance held separately?                          □ Yes □ No — if yes, both are
+                                                                            required
+
+Is any authority holder part of the function assessed, and how will
+outcome independence be protected?
+
+Who will be the Trusted Agent?
+
+Is the candidate outside both the red team and the defensive element?       □ Yes □ No
+
+
+
+                                            UNCLASSIFIED
+                                                 12/112
+                                              UNCLASSIFIED
+
+
+
+
+Question                                                                     Answer
+
+
+Who must not know this is happening, and why?
+
+Are hosted, third-party or supplier services a source, target or             □ Yes □ No — list providers
+dependency?                                                                  and direct permissions
+                                                                             required:
+
+Is any regulated, classified, or safety-critical system in scope?            □ Yes □ No
+
+Which legal, privacy, regulatory, contractual or provider reviews are
+required?
+
+Who will own the fixes, and do they have capacity?
+
+
+
+
+7. Initial risk and effort assessment
+
+Factor                                                       Assessment
+
+
+Operational risk to production                               □ Low □ Medium □ High
+
+Legal complexity                                             □ Low □ Medium □ High
+
+Data sensitivity in scope                                    □ Low □ Medium □ High
+
+Estimated execution duration
+
+Estimated total elapsed duration
+
+Team capacity available                                      □ Yes □ No — conflicts:
+
+Skills gap
+
+External reviewer or specialist required                     □ Yes □ No — reason:
+
+
+
+
+8. Gate G0 decision
+Decided by the Head of Red Team.
+
+#                        Criterion                                                    ✓
+
+
+1                        A named mission or business service is identified            □
+
+2                        The customer can state the decision the result will          □
+                         inform
+
+3                        Red teaming is the correct instrument                        □
+
+
+                                              UNCLASSIFIED
+                                                    13/112
+                                           UNCLASSIFIED
+
+
+
+
+#                    Criterion                                                  ✓
+
+
+4                    Defensibility baseline met, or an alternative proposed     □
+
+5                    A candidate Approving Authority with sufficient            □
+                     authority exists
+
+6                    A candidate System Authority can positively authorise      □
+                     the proposed target space
+
+7                    Required third-party and provider permissions can be       □
+                     obtained
+
+8                    The team has capacity, separation and skills, or a plan    □
+                     to obtain them
+
+
+Decision: □ Accept □ Accept with conditions □ Decline — alternative recommended
+Conditions / alternative recommended:
+
+Response / notes
+
+
+
+
+Rationale (mandatory, including for acceptance):
+
+Response / notes
+
+
+
+
+Decided by
+
+Role                             Head of Red Team
+
+Signature                        ................................................
+
+Date                             ................................................
+
+
+
+
+                                           UNCLASSIFIED
+                                                 14/112
+                                              UNCLASSIFIED
+
+
+
+T02 — Rules of Engagement
+[ENGAGEMENT NAME] — [CODE NAME]
+
+
+Engagement reference                                              [RT-YYYY-NNN]
+
+Code name
+
+Classification
+
+Version
+
+Assessed organisation
+
+Assessing organisation
+
+Mandating authority, where applicable
+
+Execution period                                                  From _______ to _______
+
+Date of issue
+
+
+       These Rules of Engagement govern the whole engagement and shall be observed throughout
+       execution. A restriction, suspension or stop instruction takes effect immediately and is recorded
+       as soon as practicable. Any expansion of target space, action, objective, capability or risk
+       requires prior written approval from every authority affected. These Rules shall be amended
+       whenever an authorised boundary changes.
+       Produced to the standard at Annex B of the Red Team Methodology.
+
+
+
+Summary
+Objectives
+
+Objective ID                                                 Objective
+
+
+O-01
+
+O-02
+
+O-03
+
+
+Principal restrictions
+
+Restriction
+
+
+
+
+                                              UNCLASSIFIED
+                                                    15/112
+                                          UNCLASSIFIED
+
+
+
+
+Restriction
+
+
+
+
+Authorised target space, in summary
+
+Target-space summary
+
+
+
+
+Cessation. Contact [TRUSTED AGENT] on [24-HOUR NUMBER]. Code word: [CODE WORD].
+
+
+
+
+1. Introduction
+1.1 Purpose
+These Rules of Engagement establish the relationship and obligations between the red team, the system
+owner and the assessed organisation for the engagement named above.
+
+1.2 References
+  a. Red Team Methodology, version [X.Y].
+  b. Letter of Authorisation dated [DATE].
+  c. [OTHER REFERENCES]
+
+1.3 Scope of this document
+Applies to all activity conducted by the personnel named at Appendix 2 against the target space at
+Appendix 3 during the execution period.
+
+1.4 Definitions
+As set out in the Lexicon to the Red Team Methodology.
+
+
+
+
+2. The engagement
+2.1 Category
+□ SL-1 Internal assessment □ SL-2 Mandated engagement □ SL-3 Exercise □ SL-4 Purple team
+
+2.2 Attributes
+
+
+
+
+                                          UNCLASSIFIED
+                                               16/112
+                                            UNCLASSIFIED
+
+
+
+
+Attribute                        Value
+
+
+Covert or open                   □ Covert □ Open □ Partially covert:
+
+Starting posture                 □ External □ Assumed breach, user □ Assumed breach, server □
+                                 Insider □ Supply chain
+
+Capability level emulated        □ 1 Opportunistic □ 2 Targeted criminal □ 3 State-aligned □ 4
+                                 Insider-enabled
+
+Social engineering authorised    □ Yes □ No
+
+Physical entry authorised        □ Yes □ No
+
+Execution period                 ______ working days
+
+
+2.3 Objectives
+
+                                   Assessment                          Standard of       Prohibited
+Objective ID        Objective      objective          Verification     evidence          proof
+
+
+O-01
+
+O-02
+
+O-03
+
+
+2.4 Methodology
+Conducted in accordance with the Red Team Methodology, using the Get In, Stay In, Act model. The
+stages are at Chapter 7, paragraph 7.8, of that publication.
+
+2.5 Activity types
+The following categories of activity are permitted within the authorised target space.
+□ Passive reconnaissance □ Active enumeration □ Identification and exploitation of weaknesses □ Social
+engineering □ Credential access and reuse □ Privilege escalation □ Lateral movement □ Persistence □
+Command and control □ Demonstration of data access □ Physical entry □ Other: ____________
+
+2.6 Equipment and software
+
+
+Command and control framework
+
+Platforms
+
+Principal tooling
+
+Infrastructure providers
+
+Source addresses                                                 See Appendix 3
+
+
+                                            UNCLASSIFIED
+                                                 17/112
+                                         UNCLASSIFIED
+
+
+
+2.7 Threat profile
+
+
+Adversary emulated
+
+Basis                                                   □ Named group □ Composite
+
+Capability level
+
+Full profile                                            Appendix 8
+
+
+
+
+3. Appointments
+
+Appointment              Name             Organisation        Authority
+
+
+Approving Authority                                           Accepts operational risk; countersigns the
+                                                              Letter of Authorisation where different
+                                                              from the System Authority
+
+System Authority                                              Consents to access to the systems and
+                                                              facilities identified in Appendix 3
+
+Trusted Agent                                                 Unilateral authority to suspend or
+                                                              terminate at any time
+
+Control Team                                                  Supports the Trusted Agent; staffs the
+                                                              deconfliction line
+
+Red Team Lead                                                 Conduct and safety of the engagement;
+                                                              may suspend at any time
+
+Operators                                                     Execute within these Rules of
+                                                              Engagement
+
+Legal adviser                                                 Advises on authorisation and data
+                                                              protection
+
+
+Contact details at Appendix 2.
+
+3.1 Independence and reporting safeguards
+
+Safeguard                                                                 Engagement-specific record
+
+
+Function and chain of command being assessed
+
+Approving Authority independence and any declared conflict
+
+Red Team Lead’s direct reporting route to the Approving Authority
+
+
+                                         UNCLASSIFIED
+                                               18/112
+                                            UNCLASSIFIED
+
+
+
+
+Safeguard                                                                   Engagement-specific record
+
+
+Final report recipients and simultaneous issue time
+
+Factual-accuracy process; no right to suppress or silently amend findings
+
+Route for a written management response or severity dispute
+
+Independent threat-profile and report reviewers
+
+
+
+
+4. Conduct
+4.1 Standing instructions
+Operators conduct activity in accordance with Chapter 8 of the Red Team Methodology, which is
+incorporated by reference. Technique approval levels are at Annex E, paragraph E.2.3.
+
+4.2 Additions particular to this engagement
+  a.
+  b.
+
+
+
+
+5. Deconfliction
+5.1 Procedure
+  a. The Trusted Agent, or a member of the defensive element through the Trusted Agent, contacts the
+     Red Team Lead on the deconfliction line, stating the time in UTC, the source address, the target,
+     and the behaviour observed.
+  b. The Red Team Lead suspends activity in the affected area.
+   c. The Red Team Lead examines the operator, infrastructure and session records and responds within
+      the period below.
+  d. The determination is definitive. Where the records do not establish attribution to the red team, the
+     determination is that the activity is not attributable, and it is handled as a genuine intrusion until
+     established otherwise.
+   e. The exchange is recorded on pro forma T07.
+
+5.2 Parameters
+
+
+Deconfliction line, answered continuously
+
+Alternate
+
+Response period                                            ______ minutes (default 30)
+
+Code word                                                  [CODE WORD]
+
+
+
+
+                                            UNCLASSIFIED
+                                                  19/112
+                                            UNCLASSIFIED
+
+
+
+
+Maximum interval without contact with the Trusted             ______ hours (default 4)
+Agent
+
+Authority to resume                                           Trusted Agent, in writing
+
+
+5.3 Genuine intrusion
+Where evidence of a genuine, unrelated intrusion is identified, the procedure at Annex E, paragraph
+E.5.5, applies. Activity ceases, the Trusted Agent is notified by telephone using the code word, evidence
+is preserved, and the activity record is transferred. The red team does not investigate or remediate.
+Resumption requires the approval of the Approving Authority.
+
+
+
+
+6. Cessation
+Activity ceases immediately, and the Trusted Agent is notified by telephone, on any criterion at Chapter
+8, paragraph 8.15, of the Red Team Methodology, which is incorporated by reference.
+Additional criteria for this engagement:
+  a.
+Any operator, the Red Team Lead, the Trusted Agent or the Approving Authority may require cessation.
+No justification is required and none shall be sought.
+
+
+
+
+7. Communications
+
+Channel                Purpose                      Parties                         Frequency
+
+
+Deconfliction line     Cessation and                Red Team Lead and               Continuously during
+                       deconfliction                Trusted Agent                   execution
+
+Situation report       Status                       Red Team Lead to Trusted        Daily, at close of day
+                                                    Agent
+
+Steering               Progress and decisions       Red Team Lead, Trusted          Weekly
+                                                    Agent, Approving Authority
+
+Emergency              Suspected loss of service    Any party to the Trusted        Immediate, by
+                       or genuine intrusion         Agent                           telephone
+
+
+Where the engagement is covert, engagement communications use the following channels, outside the
+monitored infrastructure of the assessed organisation: ____________
+
+
+
+
+8. Data handling
+
+
+
+
+                                            UNCLASSIFIED
+                                                   20/112
+                                          UNCLASSIFIED
+
+
+
+
+Evidence repository
+
+Encryption
+
+Access control
+
+Time standard                                              Coordinated Universal Time
+
+Approved time source and tolerance
+
+Evidence identifier scheme
+
+Approved hash algorithm
+
+Maximum sensitive data that may be accessed
+
+Prohibited data
+
+Captured credentials                                       Held hashed or truncated; destroyed at
+                                                           closure
+
+Retention period                                           ______ months
+
+Method of destruction
+
+Classification of engagement material
+
+
+
+
+9. Products
+
+Product                           Recipient                      Timing
+
+
+Situation report                  Trusted Agent                  Daily
+
+Activity record                   Trusted Agent                  At culmination
+
+Cleanup attestation               Trusted Agent                  At culmination
+
+Draft report                      Trusted Agent                  ______ days after execution
+
+Report                            Distribution below             ______ days after execution
+
+Command brief                     Approving Authority            With the report
+
+Technical debrief                 Defensive element              Before the report is issued
+
+
+Distribution of the report (named individuals or named appointments only):
+
+
+
+                                          UNCLASSIFIED
+                                                  21/112
+                                              UNCLASSIFIED
+
+
+
+10. Legal, authority and provider conditions
+10.1 Applicability and authority record
+
+Item                                                         Decision / reference
+
+
+Applicable law, regulation, mandate and contract
+
+Applicability decision and responsible adviser
+
+System Authority and basis of authority
+
+Approving Authority and risk authority
+
+Lawful basis for processing personal data
+
+Controller, processor or joint-controller roles
+
+Data-protection impact assessment required?                  □ Yes □ No — reference:
+
+International transfer or localisation conditions
+
+Notification or consultation obligations
+
+Date and author of legal/privacy review
+
+
+
+
+                                              UNCLASSIFIED
+                                                    22/112
+                                                                        UNCLASSIFIED
+
+
+
+
+10.2 Provider and third-party permission register
+     One row for each hosted, managed, shared, supplier or other third-party service that is a source, target or material dependency. Attach the permission
+     or policy evidence.
+
+                                                              Permission / policy
+Provider / party    Account / tenant     Source, target or    reference and            Conditions /                                           Last rechecked
+and service         / project            dependency           version                  notice           Owner              Expiry             (UTC)
+
+
+
+
+                                                                        UNCLASSIFIED
+                                                                              23/112
+                                            UNCLASSIFIED
+
+
+
+
+11. Limitations
+  a. This engagement provides assurance only in respect of the target space, techniques and period
+     defined herein. The absence of a finding is not evidence of the absence of weakness.
+  b. The engagement emulates the capability level stated at paragraph 2.2 and does not represent the
+     capability of every adversary.
+  c. Techniques excluded on grounds of safety or legality are listed at Appendix 6. An adversary
+     unconstrained by those limits may achieve outcomes not demonstrated here.
+
+
+
+
+12. Change control
+Changes follow Annex B, paragraph B.8. Restrictions and stop instructions take effect immediately.
+Changes extending the target space, authorising an action classified as conditional, raising capability or
+increasing risk require prior written approval from the Approving Authority, System Authority and any
+other affected authority. Absolute prohibitions cannot be changed within an engagement. All changes are
+recorded at Appendix 9.
+
+
+
+
+13. Approval
+     These signatures record the agreed authority, consent, risk acceptance and constraints. Together
+     with the Letter of Authorisation, they permit only the named personnel, positively identified
+     target space, authorised actions and execution period. They do not replace applicable law,
+     third-party permission or provider conditions.
+
+                                      Name and rank           Signature               Date
+
+
+Red Team Lead
+
+Trusted Agent
+
+Approving Authority
+
+System Authority (dual-role
+authority may annotate both rows)
+
+
+
+
+APPENDIX 1 — IDENTIFICATION OF THE ASSESSED OR-
+GANISATION
+
+Legal name
+
+Divisions in scope
+
+Principal address
+
+
+                                            UNCLASSIFIED
+                                                  24/112
+                                           UNCLASSIFIED
+
+
+
+
+Additional sites in scope
+
+Identifiers: domains, network numbers, tenancies
+
+Senior contact
+
+
+
+
+APPENDIX 2 — CONTACTS
+
+Appointment          Name         Mobile           Alternate    Email            Hours     Verified
+
+
+System Authority
+
+Approving
+Authority
+
+Alternate
+
+Trusted Agent
+
+Alternate
+
+Red Team Lead
+
+Alternate
+
+Legal adviser
+
+Out-of-hours
+escalation
+
+
+Every contact shall be verified by telephone within twenty-four hours before commencement.
+Verification conducted by: ____________ Date: ____________
+Operators authorised for this engagement
+
+                                                    Confirmed reading of these
+Name                    Appointment                 Rules                           Date
+
+
+
+
+                                           UNCLASSIFIED
+                                                   25/112
+                                              UNCLASSIFIED
+
+
+
+APPENDIX 3 — AUTHORISED TARGET SPACE
+Only the positively identified systems, ranges, tenants, identities, people and locations below are authorised.
+Exclusion lists clarify this outer boundary but do not create it. Names, ownership assumptions, shared
+branding and technical reachability do not establish scope. Any ambiguity is outside scope until approved
+in writing.
+
+3.1 Networks and addresses
+
+Type                                            Value                            Notes
+
+
+Address ranges
+
+Domains
+
+Tenancies and subscriptions
+
+Applications
+
+Identity providers
+
+
+3.2 Identities and personnel groups
+
+Group                               Approximate size                        Notes
+
+
+
+
+3.3 Physical locations
+
+Site                                Areas authorised                        Notes
+
+
+
+
+                                              UNCLASSIFIED
+                                                    26/112
+                                           UNCLASSIFIED
+
+
+
+3.4 Red team source addresses
+Provided to the Trusted Agent for deconfliction. Not disclosed to the defensive element in a covert
+engagement.
+
+Address or range                     Purpose                             Tier
+
+
+
+
+APPENDIX 4 — EXCLUDED TARGET SPACE
+       Produced by the assessed organisation and confirmed by the owner of each excluded system.
+       Where the status of a target is ambiguous, it is outside scope.
+
+Type                  Identifier         Basis for exclusion     Owner             Confirmed
+
+
+
+
+4.1 Individuals excluded from social engineering
+
+Identifier or group                                      Basis
+
+
+
+
+                                           UNCLASSIFIED
+                                                27/112
+                                            UNCLASSIFIED
+
+
+
+
+Identifier or group                                        Basis
+
+
+
+4.2 Periods of restriction
+
+Period                                                 Basis
+
+
+
+
+APPENDIX 5 — AUTHORISED ACTIONS
+
+                          Action                     Conditions and limits        Approval level
+
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+
+
+
+APPENDIX 6 — PROHIBITED ACTIONS
+The list at Annex B, paragraph B.5, applies in full. Its absolute prohibitions cannot be waived. Additional
+prohibitions for this engagement:
+
+
+
+
+                                            UNCLASSIFIED
+                                                  28/112
+                                             UNCLASSIFIED
+
+
+
+                                                     Status: absolute /
+#                        Prohibited action           conditional                  Basis
+
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+
+Conditional authorisations granted. An entry is valid only for an action classified as conditional,
+expressly permitted by applicable law and provider terms, and supported by the stated controls. Absolute
+prohibitions shall not appear here.
+
+Action and exact     Safety controls and     Legal / provider
+limit                rollback                review                 Risk accepted by   Date and expiry
+
+
+
+
+APPENDIX 7 — OBJECTIVES AND SUCCESS CRITERIA
+                                                                             Location
+                              Success         Evidence          Marker       (Trusted
+Objective ID    Objective     criteria        required          placed       Agent only)     Period
+
+
+O-01                                                            □
+
+O-02                                                            □
+
+O-03                                                            □
+
+
+
+
+APPENDIX 8 — THREAT PROFILE
+Attach the completed pro forma T03, or summarise:
+
+
+Adversary
+
+
+                                             UNCLASSIFIED
+                                                  29/112
+                                          UNCLASSIFIED
+
+
+
+
+Motivation
+
+Capability level
+
+Initial access vectors emulated
+
+Principal techniques
+
+Techniques not emulated, and the basis
+
+
+
+
+APPENDIX 9 — RECORD OF CHANGES
+                             Change and                   Required
+                             direction:                   authorities
+                             restrict /    Basis, risk    and                       Operators
+              Requested      expand /      and affected   permission    Effective   briefed
+#             (UTC) / by     clarify       boundary       refs          (UTC)       (UTC)
+
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+
+
+
+                                          UNCLASSIFIED
+                                              30/112
+                                            UNCLASSIFIED
+
+
+
+T03 — Threat Profile
+        Used in Phase 2. Produced by the Threat Intelligence Analyst. Peer-reviewed by someone
+        who will not execute it. Becomes Appendix 8 of the ROE.
+
+Field                                                            Value
+
+
+Engagement reference
+
+Profile version
+
+Author
+
+Peer reviewer
+
+Date
+
+Intelligence cut-off date
+
+ATT&CK release and date
+
+Source-handling classification
+
+Scenario ID(s)                                                   SC-01
+
+
+
+
+1. Adversary selection
+1.1 What does this organisation have that someone would want?
+
+Response / notes
+
+
+
+
+1.2 Who has attacked organisations like this in the last 24 months?
+
+Actor                            Sector / geography targeted               Source
+
+
+
+
+1.3 Which adversaries have acted against the assessed organisation?
+From incident history, escalations by the defensive element, and phishing telemetry.
+
+
+
+                                            UNCLASSIFIED
+                                                  31/112
+                                            UNCLASSIFIED
+
+
+
+
+Response / notes
+
+
+
+
+1.4 Selected adversary and justification (one paragraph, evidence-based)
+
+Response / notes
+
+
+
+
+1.5 Source assessment
+       Use stable source IDs throughout this profile. Reliability concerns the source; confidence
+       concerns the information. Record uncertainty and disagreement rather than resolving them by
+       omission.
+
+                Title / origin                                                             Corroboration,
+                and link or                                                                disagreement
+                repository       Published /                         Information           and
+Source ID       reference        observed        Reliability         confidence            limitations
+
+
+S-01                                             High / Medium /     High / Medium /
+                                                 Low                 Low
+
+S-02                                             High / Medium /     High / Medium /
+                                                 Low                 Low
+
+S-03                                             High / Medium /     High / Medium /
+                                                 Low                 Low
+
+S-04                                             High / Medium /     High / Medium /
+                                                 Low                 Low
+
+
+
+Analytic limitation or alternative explanation         Effect on adversary selection or scenario
+
+
+
+
+                                            UNCLASSIFIED
+                                                  32/112
+                                            UNCLASSIFIED
+
+
+
+
+Analytic limitation or alternative explanation        Effect on adversary selection or scenario
+
+
+
+
+2. Adversary identity
+
+Field                                                     Value
+
+
+Name
+
+Aliases
+
+ATT&CK Group ID
+
+Profile basis                                             □ Named group □ Composite — built from a
+                                                          threat category
+
+If composite: category emulated
+
+Attribution source IDs
+
+
+
+
+3. Motivation and goals
+
+Field                                              Value
+
+
+Primary motivation                                 □ Espionage □ Financial □ Disruption □
+                                                   Hacktivism □ Pre-positioning
+
+Secondary motivation
+
+What would this actor want from THIS
+organisation?
+
+Likely end objectives
+
+Tolerance for detection                            □ Low — will withdraw □ Medium □ High — will
+                                                   persist noisily
+
+Tolerance for destruction                          □ None □ Opportunistic □ Deliberate
+
+
+
+
+4. Capability assessment
+
+
+
+
+                                            UNCLASSIFIED
+                                                 33/112
+                                             UNCLASSIFIED
+
+
+
+
+Field                                           Value
+
+
+Capability level                                □ 1 Opportunistic □ 2 Targeted criminal □ 3 Advanced
+                                                persistent □ 4 Insider-enabled
+
+Justification
+
+Resourcing
+
+Patience / typical dwell time
+
+Custom capability                               □ None □ Modified public tooling □ Bespoke
+
+Zero-day use                                    □ Not observed □ Occasional □ Routine
+
+
+
+
+5. Initial access
+Ranked by observed frequency in reporting.
+
+Rank                 Vector             ATT&CK ID            Observed detail     Emulating?
+
+
+1                                                                                □
+
+2                                                                                □
+
+3                                                                                □
+
+
+
+
+6. Tooling
+
+Category                                     Known tooling                Emulating with
+
+
+Initial access
+
+Execution
+
+C2
+
+Credential access
+
+Lateral movement
+
+Exfiltration
+
+Living-off-the-land binaries
+
+
+
+
+                                             UNCLASSIFIED
+                                                 34/112
+                                            UNCLASSIFIED
+
+
+
+7. Infrastructure pattern
+
+Attribute                                       Adversary pattern             Emulation
+
+
+Hosting providers
+
+Domain naming convention
+
+Domain age / categorisation
+
+TLS certificate habits
+
+C2 protocol
+
+Beacon interval and jitter
+
+Redirector use
+
+
+
+
+8. TTP set — the execution backbone
+       This table forms the structure of the engagement plan, the execution record and the coverage
+       matrix in the report. The procedure column is the operative one: a defensive element detects
+       procedures and not technique identifiers.
+
+                                                  Procedure:
+                                    Technique     the exact
+                                    ID and        method to                   Approval
+Action ID        Tactic             name          be used        Source IDs   level         Planned
+
+
+A-01             Reconnaissance                                                             □
+
+A-02             Resource                                                                   □
+                 Development
+
+A-03             Initial Access                                                             □
+
+A-04             Execution                                                                  □
+
+A-05             Persistence                                                                □
+
+A-06             Privilege                                                                  □
+                 Escalation
+
+A-07             Stealth                                                                    □
+
+A-08             Defense                                                                    □
+                 Impairment
+
+A-09             Credential                                                                 □
+                 Access
+
+
+
+                                            UNCLASSIFIED
+                                                  35/112
+                                              UNCLASSIFIED
+
+
+
+                                                     Procedure:
+                                      Technique      the exact
+                                      ID and         method to                   Approval
+Action ID       Tactic                name           be used      Source IDs     level         Planned
+
+
+A-10            Discovery                                                                      □
+
+A-11            Lateral                                                                        □
+                Movement
+
+A-12            Collection                                                                     □
+
+A-13            Command and                                                                    □
+                Control
+
+A-14            Exfiltration                                                                   □
+
+A-15            Impact                                                                         □
+
+
+
+
+9. Known indicators
+Held by the Control Team for deconfliction and released to the defensive element at the agreed stage. In a
+covert engagement they are not used to seed advance detections unless the ROE explicitly makes that part
+of the design.
+
+Type                     Indicator                    Source ID                Using in emulation?
+
+
+                                                                               □
+
+                                                                               □
+
+                                                                               □
+
+
+
+
+10. Techniques not emulated
+       Mandatory. Emulation is always partial. Recording the omission prevents the report being
+       read as assurance against the adversary as a whole.
+
+Adversary behaviour            Basis for exclusion                             Residual risk left unassessed
+
+
+                               □ Safety □ Legal □ Capability □ ROE
+
+                               □ Safety □ Legal □ Capability □ ROE
+
+
+
+
+                                              UNCLASSIFIED
+                                                     36/112
+                                              UNCLASSIFIED
+
+
+
+11. Attack path hypotheses
+        Recorded before execution. The predictions constitute a finding in themselves. The difference
+        between what the organisation believes its controls achieve and what they achieve is among
+        the more useful outputs of an engagement.
+
+Hypothesis 1
+
+Field                                                        Value
+
+
+Hypothesis ID / objective ID                                 H-01 / O-__
+
+Route                                                        Start to . . . to Objective
+
+Planned action IDs                                           A-__ → A-__ → A-__
+
+Controls expected to be encountered
+
+Prediction: prevented / detected / missed at each
+step
+
+Confidence                                                   □ Low □ Medium □ High
+
+Source IDs and key assumptions
+
+
+Hypothesis 2
+
+Field                                                             Value
+
+
+Hypothesis ID / objective ID                                      H-02 / O-__
+
+Route
+
+Planned action IDs
+
+Controls expected
+
+Prediction
+
+Confidence
+
+Source IDs and key assumptions
+
+
+Hypothesis 3
+
+Field                                                             Value
+
+
+Hypothesis ID / objective ID                                      H-03 / O-__
+
+Route
+
+
+                                              UNCLASSIFIED
+                                                   37/112
+                                              UNCLASSIFIED
+
+
+
+
+Field                                                             Value
+
+
+Planned action IDs
+
+Controls expected
+
+Prediction
+
+Confidence
+
+Source IDs and key assumptions
+
+
+Attack-path representation
+
+Item                                                                        Value
+
+
+Attack Flow or diagram reference
+
+Version / date
+
+Flow or node identifiers used in T04 and T08
+
+
+
+
+12. Target reconnaissance summary
+
+Area                                              Findings                   Immediate risk?
+
+
+External attack surface                                                      □
+
+Exposed services                                                             □
+
+Identity providers and federation                                            □
+
+Technology stack                                                             □
+
+Public personnel footprint                                                   □
+
+Credential exposure in breach corpora                                        □
+
+Supply chain / third-party access                                            □
+
+
+        Any item marked as an immediate risk shall be reported to the Trusted Agent at once. It shall
+        not be held for the report.
+Reported to Trusted Agent on: ____________ by: ____________
+
+
+
+13. Sign-off
+
+
+                                              UNCLASSIFIED
+                                                   38/112
+                       UNCLASSIFIED
+
+
+
+
+                Name                Signature   Date
+
+
+Author
+
+Peer reviewer
+
+Red Team Lead
+
+
+
+
+                       UNCLASSIFIED
+                           39/112
+                                           UNCLASSIFIED
+
+
+
+T04 — Engagement Plan
+        Used in Phase 3. Internal Red Team document. Not distributed to the customer beyond the
+        Trusted Agent. Closed out at Gate G3.
+
+Field                                                        Value
+
+
+Engagement reference
+
+Code name
+
+Red Team Lead
+
+Plan version
+
+Date
+
+
+
+
+1. Scenario
+
+Item                                                          Value
+
+
+Scenario ID                                                   SC-01
+
+Threat profile reference / version
+
+ATT&CK release
+
+
+1.1 Premise (the adversary, its purpose, and the point in its campaign at which the engagement
+commences)
+
+Response / notes
+
+
+
+
+1.2 Starting position
+□ External, no access □ Assumed breach — user workstation □ Assumed breach — server □ Insider □
+Supply chain
+Detail of the starting position provided:
+
+
+
+
+                                           UNCLASSIFIED
+                                                40/112
+                                             UNCLASSIFIED
+
+
+
+
+Item                                Detail                     Provided by              Date
+
+
+Host / account / access
+
+
+1.3 Objectives (from the ROE)
+
+Objective ID                    Objective                Time box                Primary hypothesis
+
+
+O-01                                                                             H-__
+
+O-02                                                                             H-__
+
+O-03                                                                             H-__
+
+
+
+
+2. Phasing
+
+Stage                    Days                Intent                 Key techniques       Decision point
+
+
+Get In
+
+Stay In
+
+Act
+
+
+2.1 Decision points (where the plan branches based on what is found)
+
+#                         Decision point                  If A to                    If B to
+
+
+1
+
+
+2.2 Contingencies
+
+If this fails                                                         Fallback
+
+
+Primary initial access
+
+Primary C2 channel
+
+Primary attack path
+
+
+
+
+3. Team and assignments
+
+
+
+                                             UNCLASSIFIED
+                                                      41/112
+                                          UNCLASSIFIED
+
+
+
+
+Operator                  Role                    Focus area                   Availability
+
+
+
+
+Role separation and safeguards:
+
+                                                                          Required separation,
+Person              Roles held          Conflict check                    supervision or external review
+
+
+                                        □ Clear □ Re-scope required
+
+
+       Prohibited role combinations in Annex A are non-waivable. Where separation cannot be
+       achieved, reduce the activity, conduct it openly, or obtain qualified external support.
+
+
+
+4. Infrastructure
+4.1 Design
+
+Tier                        Purpose         Components         Provider          Status
+
+
+1 — Phishing / initial                                                           □ Built □ Tested
+access
+
+2 — Short-haul /                                                                 □ Built □ Tested
+interactive
+
+3 — Long-haul /                                                                  □ Built □ Tested
+persistence
+
+
+
+
+                                          UNCLASSIFIED
+                                               42/112
+                                                            UNCLASSIFIED
+
+
+
+
+4.2 Infrastructure inventory
+
+                                                                                                       Removal date
+Asset ID   Asset type   Identifier   Provider   Tier   Purpose    Created   By   Decommission method   (UTC)          Verified by
+
+
+INF-001
+
+INF-002
+
+INF-003
+
+INF-004
+
+INF-005
+
+INF-006
+
+INF-007
+
+INF-008
+
+
+
+
+                                                            UNCLASSIFIED
+                                                                 43/112
+                                              UNCLASSIFIED
+
+
+
+4.3 Standards check
+
+#                          Check                                                    ✓
+
+
+1                          All C2 traffic encrypted                                 □
+
+2                          Team server not reachable from the internet              □
+
+3                          Automatic C2 logging enabled and verified                □
+
+4                          No infrastructure or naming reused from a previous       □
+                           engagement
+
+5                          Every asset in the inventory with a decommissioning      □
+                           owner
+
+6                          At least two independent channels available per stage    □
+
+7                          Source and target providers permit every planned         □
+                           activity
+
+8                          C2 kill switches and expiry controls tested              □
+
+
+4.4 Provider and third-party recheck
+
+                 T02
+Provider /       permission
+party and        row /             Conditions      Approval         Rechecked                Valid for
+service          evidence ref      and notice      expiry           (UTC)          By        plan?
+
+
+                                                                                             □
+
+                                                                                             □
+
+                                                                                             □
+
+
+
+
+5. Tooling
+                                                                         Artefacts it
+Tool             Version            Purpose            Lab-tested        leaves           Approval level
+
+
+                                                       □
+
+                                                       □
+
+                                                       □
+
+                                                       □
+
+       No tool enters the target environment untested. Laboratory testing shall use a build represen-
+       tative of the target.
+
+                                              UNCLASSIFIED
+                                                      44/112
+                                                         UNCLASSIFIED
+
+
+
+
+6. Operational risk assessment
+
+              Technique /   What could go                                                       Means of
+Risk ID       activity      wrong           Likelihood    Impact        Mitigation   Rollback   detecting harm   Approval level
+
+
+R-01                                        L/M/H         L/M/H
+
+R-02
+
+R-03
+
+R-04
+
+R-05
+
+R-06
+
+R-07
+
+R-08
+
+
+
+
+                                                         UNCLASSIFIED
+                                                             45/112
+                                             UNCLASSIFIED
+
+
+
+Conditional high-impact activities requiring written approval:
+       No entry may override an absolute prohibition. If an action has no credible rollback or safer
+       proof method, revise the plan.
+
+Activity                    Rationale                  Approved by                   Date
+
+
+
+
+7. Data collection
+
+Item                                                                       Value
+
+
+Evidence repository
+
+Encryption
+
+Access list
+
+Timezone — all systems                                                     UTC
+
+Approved time source
+
+Permitted clock offset / tolerance
+
+Measured offsets and check time
+
+Automatic session logging configured on
+
+Automatic C2 logging configured                                            □ Verified
+
+Screenshot standard                                                        Full window, visible
+                                                                           timestamp, redacted at
+                                                                           capture
+
+Time sync verified across all operator systems                             □ Date:
+
+Evidence identifier convention
+
+Approved hash algorithm
+
+Original evidence repository / working-copy area
+
+
+7.1 Measure specifications
+       Complete one row for every measure that will appear in T08. Attach detail where a row
+       is insufficient. “Not observed” results and measurements ending before an event occurs are
+       recorded as censored, not as zero.
+
+
+                                             UNCLASSIFIED
+                                                   46/112
+                                             UNCLASSIFIED
+
+
+
+Measure ID       Definition or                                   Numerator /                   Validation
+and decision     start / end        Source and                   denominator   Exclusions /    and target
+served           events             owner         Window         or sample     censoring       rationale
+
+
+M-01
+
+M-02
+
+M-03
+
+
+
+
+8. Communications
+
+Channel                                     Detail                        Tested
+
+
+Internal red team                                                         □
+
+Deconfliction line                                                        □ live call placed
+
+SITREP delivery                                                           □
+
+Emergency                                                                 □
+
+
+Contact verification (all numbers called): Date ________ By ________
+
+
+
+9. Cleanup plan
+Every planned modification and its removal method. Feeds T12.
+
+                        Planned
+Cleanup ID              modification             Removal method       Owner            Reversible?
+
+
+MOD-001                                                                                □
+
+MOD-002                                                                                □
+
+MOD-003                                                                                □
+
+
+
+                                        Method /                                              Trigger or due
+Restoration control                     reference             Owner        Verifier           time
+
+
+Deactivate C2 tasking and listeners
+
+Exercise kill switches and expiry
+
+Revoke credentials, tokens,
+certificates and keys
+
+
+                                             UNCLASSIFIED
+                                                     47/112
+                                               UNCLASSIFIED
+
+
+
+                                          Method /                                    Trigger or due
+Restoration control                       reference            Owner   Verifier       time
+
+
+Remove payloads, persistence,
+accounts and configuration changes
+
+Preserve required logs, then
+decommission infrastructure
+
+Restore secure communications and
+ordinary monitoring
+
+Check backup or image restoration
+will not reintroduce artefacts
+
+Monitor and resolve late callbacks
+or delayed tasks
+
+
+
+
+10. Schedule
+
+Date                           Activity                                     Owner
+
+
+                               Kick-off
+
+                               Execution begins
+
+                               Mid-point steering review
+
+                               Execution ends
+
+                               Cleanup complete
+
+                               Draft report
+
+                               Technical debrief
+
+                               Final report
+
+                               Executive brief
+
+
+
+
+11. Gate G3 checklist
+
+#                       Criterion                                                 ✓
+
+
+1                       Plan complete and briefed to all operators                □
+
+
+
+
+                                               UNCLASSIFIED
+                                                      48/112
+                                    UNCLASSIFIED
+
+
+
+
+#               Criterion                                               ✓
+
+
+2               Infrastructure built, tested, inventoried,              □
+                decommissioning documented
+
+3               Every tool and technique lab-tested                     □
+
+4               Evidence repository ready; all systems on UTC           □
+
+5               Operational risk assessment complete with rollbacks     □
+
+6               Deconfliction channel tested with a live call           □
+
+7               Cleanup plan exists for every planned modification      □
+
+8               The team can pause all activity within 15               □
+                minutes of a stop instruction
+
+9               Provider and third-party permissions rechecked and      □
+                evidenced
+
+10              Clock offsets are within tolerance and recorded         □
+
+11              Measures have approved definitions, sources and         □
+                quality rules
+
+12              C2 kill switches, expiry and emergency disablement      □
+                tested
+
+13              Cleanup, restoration, backup and late-callback owners   □
+                confirmed
+
+
+
+                     Name                      Signature                Date
+
+
+Red Team Lead
+
+
+
+
+                                    UNCLASSIFIED
+                                          49/112
+                                                UNCLASSIFIED
+
+
+
+T05 — Operator Log
+        Used continuously during Phase 4. Written contemporaneously — as the action is taken,
+        not reconstructed at the end of the day.
+        The operator log is the most important log in the engagement. Session and C2 logs record what
+        happened; only the operator can record why, what they expected, and how they interpreted
+        the result. That is what makes the report defensible six months later.
+
+Field                                                               Value
+
+
+Engagement reference
+
+Operator
+
+Date (UTC)
+
+Approved time source
+
+Measured clock offset / checked (UTC)
+
+
+
+
+Rules
+    1. UTC for every timestamp. Record the measured offset from the approved source; do not silently
+       rewrite a discrepant timestamp.
+    2. Log every action, including failures. A blocked technique is evidence a control worked, and is
+       often the most valuable finding.
+    3. No gaps. An unexplained gap during an incident window is indistinguishable from concealment.
+    4. Field 12 (Description) and field 15 (System modification) are mandatory. They are the
+       two most commonly skipped and the two most consequential — one turns the log into an explanation,
+       the other makes cleanup possible.
+    5. Reconcile against C2 and session logs at end of day. Resolve discrepancies the same day.
+
+
+
+Log entries
+Entry [N]
+
+
+#                              Field                                          Value
+
+
+1                              Start (UTC)
+
+2                              End (UTC)
+
+3                              Operator
+
+4                              Source IP
+
+5                              Destination IP
+
+6                              Destination port
+
+
+
+                                                UNCLASSIFIED
+                                                    50/112
+                   UNCLASSIFIED
+
+
+
+
+#    Field                                   Value
+
+
+7    Destination system
+
+8    Pivot IP / port
+
+9    URL
+
+10   Tool / application
+
+11   Command
+
+12   Description — what I was trying to
+     achieve and why
+
+13   Output (summary; full output ref.)
+
+14   Result                                  □ Success □ Failure □
+                                             Partial □ Blocked by
+                                             control
+
+15   System modification (feeds T12)
+
+16   Evidence reference
+
+17   Comments — interpretation, decisions,
+     anomalies
+
+18   Stable action ID / T12 item ID where
+     applicable
+
+
+
+
+                   UNCLASSIFIED
+                          51/112
+                                                                       UNCLASSIFIED
+
+
+
+
+Compact chronological log
+Use one row for each action. Continue on additional copies of this page when needed.
+
+                                                                         Dst
+Start       End         Op          Src IP      Dst IP       Port        system        Tool   Command   Description Result   Modification Evidence
+
+
+
+
+                                                                       UNCLASSIFIED
+                                                                            52/112
+                                            UNCLASSIFIED
+
+
+
+
+                                             Dst
+Start   End   Op   Src IP   Dst IP   Port    system      Tool   Command   Description Result   Modification Evidence
+
+
+
+
+                                            UNCLASSIFIED
+                                                53/112
+                                         UNCLASSIFIED
+
+
+
+
+End-of-day reconciliation
+
+#                     Check                                                     ✓
+
+
+1                     Every C2 task in the framework log has a                  □
+                      corresponding operator log entry
+
+2                     Every session log segment is accounted for                □
+
+3                     Every evidence file referenced exists in the repository   □
+
+4                     Every system modification is recorded in T12              □
+
+5                     No unexplained time gaps                                  □
+
+6                     Discrepancies resolved                                    □
+
+7                     Material evidence IDs exist and hashes reconcile at       □
+                      the first stable collection point
+
+8                     Clock offset remained within tolerance, or affected       □
+                      intervals are annotated
+
+
+Discrepancies found and resolution:
+
+Response / notes
+
+
+
+
+                              Name                      Signature                   Date
+
+
+Operator
+
+Reviewed by RT Lead
+
+
+
+
+                                         UNCLASSIFIED
+                                               54/112
+                                         UNCLASSIFIED
+
+
+
+T06 — Situation Report (SITREP)
+        Sent to the Trusted Agent every day of execution, without exception. A day with no
+        activity still gets a SITREP saying so.
+        A missed SITREP is treated as a loss-of-contact event and triggers the procedure at
+        Annex E, paragraph E.6.3.
+
+Field                                                       Value
+
+
+Engagement reference
+
+Code name
+
+SITREP number
+
+Reporting period (UTC)                                      From ______ to ______
+
+Prepared by
+
+Sent to
+
+Date/time sent (UTC)
+
+
+
+
+1. Current position
+
+Field                                               Value
+
+
+Access held
+
+Hosts under control
+
+Highest privilege obtained
+
+Current stage                                       □ Get In □ Stay In □ Act
+
+Overall status                                      □ On plan □ Behind □ Blocked □ Paused
+
+
+
+
+2. Activity this period
+
+Response / notes
+
+
+
+
+                                         UNCLASSIFIED
+                                               55/112
+                                          UNCLASSIFIED
+
+
+
+3. Objectives progress
+
+Objective ID          Objective          Status                                   Note
+
+
+O-01                                     □ Not started □ In progress □ Achieved
+                                         □ Blocked □ Abandoned
+
+O-02                                     □ Not started □ In progress □ Achieved
+                                         □ Blocked □ Abandoned
+
+O-03                                     □ Not started □ In progress □ Achieved
+                                         □ Blocked □ Abandoned
+
+
+
+
+4. Notable observations
+4.1 Controls that functioned (prevented, delayed or detected activity)
+
+Control                           What it stopped                        Note
+
+
+
+
+4.2 Controls that did not
+
+Expected control                    What got through                     Note
+
+
+
+
+5. Defender interaction
+
+Field                                                      Value
+
+
+Any observed detection?                                    □ No □ Yes — detail:
+
+Any observed response action?                              □ No □ Yes — detail:
+
+Any account/host lockout or isolation?                     □ No □ Yes — detail:
+
+Assessment of whether the activity has been observed
+
+
+
+
+                                          UNCLASSIFIED
+                                                  56/112
+                                          UNCLASSIFIED
+
+
+
+6. Risks and issues
+
+#                    Risk / issue         Impact               Action              Owner
+
+
+1
+
+2
+
+3
+
+
+
+
+7. Deconfliction events this period
+
+#               Time (UTC)          Raised by        Outcome                         T07 reference
+
+
+1                                                    □ Attributable □ Not
+                                                     attributable
+
+2                                                    □ Attributable □ Not
+                                                     attributable
+
+3                                                    □ Attributable □ Not
+                                                     attributable
+
+
+□ None this period
+
+
+
+8. ROE changes
+     A restriction, suspension or stop is effective immediately. An expansion remains unapproved
+     until every required written approval is recorded.
+
+                     Change requested /
+#                    approved               Status                               ROE Appendix 9 ref
+
+
+1                                           □ Requested □ Approved □
+                                            Refused
+
+2                                           □ Requested □ Approved □
+                                            Refused
+
+3                                           □ Requested □ Approved □
+                                            Refused
+
+
+□ None this period
+
+
+
+9. Plan for next period
+
+
+                                          UNCLASSIFIED
+                                                57/112
+                                         UNCLASSIFIED
+
+
+
+
+Response / notes
+
+
+
+
+10. Support required from the Trusted Agent
+
+Response / notes
+
+
+
+
+□ None
+
+
+
+11. Confirmation
+
+#                  Confirmation                                              ✓
+
+
+1                  All activity this period remained within the ROE          □
+
+2                  Operator logs are complete and reconciled                 □
+
+3                  All system modifications are recorded in the cleanup      □
+                   register
+
+4                  No stop condition is currently unresolved                 □
+
+5                  Provider permissions remain valid for the next period’s   □
+                   planned activity
+
+6                  Cleanup and restoration owners are tracking all           □
+                   current modifications and access
+
+
+
+                                  Name                          Date/time (UTC)
+
+
+Red Team Lead
+
+
+
+
+                                         UNCLASSIFIED
+                                             58/112
+                                            UNCLASSIFIED
+
+
+
+T07 — Deconfliction Record
+        One record per deconfliction event. Completed by the Red Team Lead, countersigned by the
+        Trusted Agent.
+        The timeline captured here becomes response-time evidence in the report. Record
+        times precisely.
+
+Field                                                             Value
+
+
+Engagement reference
+
+Deconfliction record number
+
+Date
+
+
+
+
+1. The request
+
+Field                                                     Value
+
+
+Time request received (UTC)
+
+Received by
+
+Raised by (name, role)
+
+Channel used                                              □ Deconfliction line □ Alternate □ Other:
+
+Code word used?                                           □ Yes □ No □ N/A
+
+
+Observed activity as reported:
+
+Field                                                                      Value
+
+
+Time of observed activity (UTC)
+
+Source address observed
+
+Target system(s)
+
+Behaviour observed
+
+Detection source (tool / alert ID)
+
+What triggered the escalation
+
+
+
+
+                                            UNCLASSIFIED
+                                                 59/112
+                                              UNCLASSIFIED
+
+
+
+2. Red Team action
+
+Field                                                             Value
+
+
+Time activity halted in the affected area (UTC)
+
+Halted by
+
+Operator logs checked                                             □ Yes — reference:
+
+C2 logs checked                                                   □ Yes
+
+Session logs checked                                              □ Yes
+
+
+
+
+3. Determination
+
+Field                                                    Value
+
+
+Determination                                            □ Attributable to the red team □ Not
+                                                         attributable
+
+Time determination made (UTC)
+
+Time determination communicated (UTC)
+
+Elapsed: request to answer                               ______ minutes (agreed period: ______)
+
+Agreed period met                                        □ Yes □ No. Basis:
+
+
+        A determination of probable attribution is not permitted. Where the records do not establish
+        attribution, the determination is that the activity is not attributable, and it is handled as a
+        genuine intrusion until established otherwise.
+Where attributable, the matching activity:
+
+Field                                                            Value
+
+
+Operator
+
+Operator record reference
+
+Technique
+
+Within the Rules of Engagement                                   □ Yes □ No. See § 5.
+
+
+Where not attributable:
+
+
+
+
+                                              UNCLASSIFIED
+                                                    60/112
+                                               UNCLASSIFIED
+
+
+
+
+#                     Action                                  Time (UTC)             By
+
+
+1                     All red team activity ceased
+
+2                     Trusted Agent notified using the code
+                      word
+
+3                     Evidence preserved
+
+4                     Activity record transferred
+
+5                     Approving Authority informed
+
+6                     Legal / privacy / regulator informed
+                      where required
+
+
+Engagement status: □ Suspended □ Terminated □ Resumed — authority:
+
+
+
+4. Defensive response evidence
+Recorded for the report. This is measurement, not judgement — it is never used to assess individuals.
+
+                                                                         Time (UTC), source and
+Event                                                                    evidence reference
+
+
+Red action time (UTC)
+
+First telemetry recorded (UTC)
+
+Alert generated (UTC)
+
+Examination began (UTC)
+
+Escalation raised (UTC)
+
+First effective containment action (UTC)
+
+Assessed access removed (UTC)
+
+Recovery complete (UTC), if applicable
+
+Measurement window ended (UTC)
+
+Unobserved or censored events
+
+Action taken
+
+Was the action correct for a real intrusion?                             □ Yes □ Partially □ No —
+                                                                         note:
+
+
+
+
+                                               UNCLASSIFIED
+                                                    61/112
+                                             UNCLASSIFIED
+
+
+
+        Timing measures are calculated in T08 from the approved T04 definitions. This record
+        preserves the source events; an event not observed within the window is not recorded as zero.
+
+
+
+5. ROE compliance
+
+Field                                                        Value
+
+
+Was the activity within the ROE?                             □ Yes □ No
+
+If no — what deviation occurred
+
+Cause
+
+Immediate corrective action
+
+Reported to Approving Authority                              □ Yes — time (UTC):
+
+ROE amendment required                                       □ Yes — Appendix 9 ref: □ No
+
+
+
+
+6. Disclosure decision
+Decided by the Trusted Agent alone.
+
+Field                                                         Value
+
+
+Was the defender told this was an exercise?                   □ Yes □ No — engagement remains
+                                                              covert
+
+Rationale
+
+If not told, how was the incident closed on their side?
+
+
+
+
+7. Resumption
+
+Field                                                           Value
+
+
+Activity resumed?                                               □ Yes □ No
+
+Time resumed (UTC)
+
+Authorised by
+
+Conditions on resumption
+
+
+
+
+                                             UNCLASSIFIED
+                                                   62/112
+                       UNCLASSIFIED
+
+
+
+8. Sign-off
+
+                Name            Signature   Date/time (UTC)
+
+
+Red Team Lead
+
+Trusted Agent
+
+
+
+
+                       UNCLASSIFIED
+                           63/112
+                                           UNCLASSIFIED
+
+
+
+T08 — Red Team Engagement Report
+[ENGAGEMENT NAME]
+[TARGET ORGANISATION]
+
+Field                                                     Value
+
+
+Engagement reference                                      RT-[YYYY]-[NNN]
+
+Code name
+
+Classification
+
+Report version
+
+Execution window
+
+Report date
+
+Prepared by
+
+QA reviewed by (did not execute)
+
+Distribution                                              (named individuals or named roles only)
+
+
+Handling: This report contains information about weaknesses in [ORGANISATION]’s defences. Dis-
+tribute only to those named above. Do not forward. Store in accordance with [CLASSIFICATION]
+handling rules.
+
+
+
+
+1. Executive summary
+        Maximum 2 pages. Standalone — a reader who reads nothing else must understand the
+        outcome. No jargon, no technique IDs, no tool names.
+
+1.1 The question the engagement was required to answer
+
+Response / notes
+
+
+
+
+1.2 Activity conducted
+Two or three sentences: which adversary was emulated, from what starting position, over what period.
+
+
+                                           UNCLASSIFIED
+                                                64/112
+                                            UNCLASSIFIED
+
+
+
+
+Response / notes
+
+
+
+
+1.3 What happened
+
+Objective ID                   Objective                   Outcome
+
+
+O-01                                                       □ Achieved □ Partially □ Prevented
+
+O-02                                                       □ Achieved □ Partially □ Prevented
+
+O-03                                                       □ Achieved □ Partially □ Prevented
+
+
+
+Response / notes
+
+
+
+
+1.4 What worked
+       Mandatory. The controls that prevented, delayed or detected the activity.
+
+Response / notes
+
+
+
+
+1.5 What did not work
+Material gaps, in order of consequence.
+
+
+                                            UNCLASSIFIED
+                                                  65/112
+                                           UNCLASSIFIED
+
+
+
+
+Response / notes
+
+
+
+
+1.6 Recommendations
+Top three to five, ranked by risk reduction — not by ease of implementation.
+
+#                       Recommendation              Addresses                  Indicative effort
+
+
+1
+
+2
+
+3
+
+
+1.7 Residual risk
+What remains exposed if nothing changes.
+
+Response / notes
+
+
+
+
+2. Methodology and objectives
+2.1 Approach
+This engagement was conducted under the [ORGANISATION] Red Team Methodology v[X.Y], using
+the Get In / Stay In / Act model, under the Rules of Engagement dated [DATE] and the Letter of
+Authorisation dated [DATE].
+
+2.2 Adversary emulated
+
+
+
+
+                                           UNCLASSIFIED
+                                                 66/112
+                                              UNCLASSIFIED
+
+
+
+
+Field                                                         Value
+
+
+Adversary
+
+Basis                                                         □ Named group □ Composite
+
+Capability level emulated                                     □1□2□3□4
+
+Rationale for selection
+
+Threat profile reference / version
+
+Intelligence cut-off date
+
+ATT&CK release used
+
+
+        Interpreting severity against threat level. All findings in this report should be read
+        against the capability level emulated. A finding reachable at Level 1 is far more urgent than
+        the same finding reachable only at Level 3, because far more actors can reach it.
+
+2.3 Objectives
+
+Objective ID                   Objective                Category                 Verification method
+
+
+O-01
+
+O-02
+
+O-03
+
+
+2.4 What was NOT emulated
+From the threat profile. Prevents this report being read as assurance against the adversary as a whole.
+
+Adversary behaviour                  Why excluded                     Residual risk left untested
+
+
+
+
+3. Scenario and scope
+
+Field                                                            Value
+
+
+Starting position
+
+Scenario / flow reference
+
+Execution window
+
+                                              UNCLASSIFIED
+                                                   67/112
+                                             UNCLASSIFIED
+
+
+
+
+Field                                                             Value
+
+
+Working days of execution
+
+Covert / open
+
+Social engineering in scope                                       □ Yes □ No
+
+Physical in scope                                                 □ Yes □ No
+
+
+In scope:
+Excluded:
+Constraints that affected the result:
+
+Response / notes
+
+
+
+
+4. Attack narrative
+        Chronological, numbered critical steps only. The full sequence of actions is at Appendix A.
+        Every step shall carry a defensive observation.
+
+Step 1 — [TITLE]
+
+Field                                               Value
+
+
+Date and time (UTC)
+
+Action taken
+
+Intent
+
+Result
+
+Technique                                           [ATT&CK ID and name]
+
+Evidence                                            [reference]
+
+Defensive observation                               □ Prevented □ Detected and alerted □ Telemetry
+                                                    only □ No visibility. Detail:
+
+
+                                             UNCLASSIFIED
+                                                  68/112
+                                             UNCLASSIFIED
+
+
+
+Step 2 — [TITLE]
+
+Field                                                            Value
+
+
+Date and time (UTC)
+
+Action taken
+
+Intent
+
+Result
+
+Technique
+
+Evidence
+
+Defensive observation
+
+
+(repeat per critical step)
+
+Attack path diagram
+(insert diagram: starting position to each host/account to objectives, with techniques labelled and control
+engagements marked distinctly)
+
+
+
+
+5. Detection and response assessment
+        Built from reconciliation with the defensive element. Record each control stage separately. A
+        blocked action can demonstrate prevention but is not automatically a valid opportunity to
+        measure telemetry or detection for the intended effect.
+Action and observability record
+
+                  Start / end                           Intended effect   Telemetry ref /   Alert ref /
+Action ID         (UTC)            Attempt result       reached?          first event       created (UTC)
+
+
+                                   Not attempted /      □ Yes □ No
+                                   substituted /
+                                   blocked /
+                                   executed
+
+
+
+
+                                             UNCLASSIFIED
+                                                    69/112
+                                             UNCLASSIFIED
+
+
+
+                  Start / end                             Intended effect   Telemetry ref /   Alert ref /
+Action ID         (UTC)         Attempt result            reached?          first event       created (UTC)
+
+
+
+
+Investigation, containment and recovery record
+
+                  First             First effective
+                  examination       containment            Access           Recovery
+                  (UTC) /           (UTC) /                removed          complete          Assessment /
+Action ID         evidence          evidence               (UTC)            (UTC)             limitation
+
+
+
+
+5.1 Timing summary
+     Use the approved definitions in T04. “Not observed by the end of the window” is censored,
+     not zero. Report counts and distributions; do not imply precision the evidence lacks.
+
+                      Measurement
+                      window and
+Measure ID /          event
+name                  definition      Sample (n)        Observed      Censored     Median        Range
+
+
+Time to telemetry
+
+Time to alert
+
+Time to
+examination
+
+Time to respond
+
+Time to contain
+
+Time to recover
+
+                                             UNCLASSIFIED
+                                                      70/112
+                                            UNCLASSIFIED
+
+
+
+                    Measurement
+                    window and
+Measure ID /        event
+name                definition       Sample (n)      Observed      Censored       Median        Range
+
+
+Presence
+
+
+
+Timing-data source, validation and limitations
+
+
+
+
+5.2 Coverage gap profile
+     The three categories have different owners, costs and timescales. This is the table that converts
+     findings into a budget conversation.
+
+                                                                                              Locally
+Gap category             Count         Accountable owner        Required action               agreed target
+
+
+No usable                              Platform / endpoint      Establish or repair the
+telemetry                              engineering              source and validate data
+                                                                quality
+
+Telemetry present,                     Detection                Design and validate
+no effective                           engineering              detection against replay
+detection
+
+Alert generated,                       Defensive operations     Correct capacity, routing,
+not examined in                        management               priority or procedure and
+the required                                                    re-exercise
+window
+
+
+5.3 Prediction vs. reality
+From the attack path hypotheses written before execution. The gap between what the organisation believed
+its controls do and what they actually did.
+
+Control                   Predicted outcome            Actual outcome                Gap
+
+
+
+
+                                            UNCLASSIFIED
+                                                  71/112
+                                 UNCLASSIFIED
+
+
+
+6. Technique and control coverage
+Planned-action outcome
+
+               Tactic /                                      Reason if not
+               ATT&CK ID   Procedure                         attempted or
+Action ID      and name    used            Outcome           substituted     Evidence ref
+
+
+A-01                                       Not attempted
+                                           / substituted /
+                                           blocked /
+                                           executed
+
+A-02
+
+A-03
+
+A-04
+
+A-05
+
+A-06
+
+A-07
+
+A-08
+
+A-09
+
+A-10
+
+A-11
+
+A-12
+
+A-13
+
+A-14
+
+A-15
+
+
+Control-stage outcome
+
+
+
+
+                                 UNCLASSIFIED
+                                       72/112
+                                               UNCLASSIFIED
+
+
+
+
+Action ID   Prevented   Executed   Usable telemetry    Alert   Investigated   Contained   Recovered
+
+
+A-01        □           □          □                   □       □              □ N/A       □ N/A
+
+A-02        □           □          □                   □       □              □ N/A       □ N/A
+
+A-03        □           □          □                   □       □              □ N/A       □ N/A
+
+A-04        □           □          □                   □       □              □ N/A       □ N/A
+
+A-05        □           □          □                   □       □              □ N/A       □ N/A
+
+A-06        □           □          □                   □       □              □ N/A       □ N/A
+
+A-07        □           □          □                   □       □              □ N/A       □ N/A
+
+A-08        □           □          □                   □       □              □ N/A       □ N/A
+
+A-09        □           □          □                   □       □              □ N/A       □ N/A
+
+A-10        □           □          □                   □       □              □ N/A       □ N/A
+
+A-11        □           □          □                   □       □              □ N/A       □ N/A
+
+A-12        □           □          □                   □       □              □ N/A       □ N/A
+
+A-13        □           □          □                   □       □              □ N/A       □ N/A
+
+A-14        □           □          □                   □       □              □ N/A       □ N/A
+
+A-15        □           □          □                   □       □              □ N/A       □ N/A
+
+
+
+
+                                               UNCLASSIFIED
+                                                      73/112
+                                             UNCLASSIFIED
+
+
+
+                                                           Exclusions /                     Quality or
+Measure               Numerator          Denominator       censored          Result         uncertainty
+
+
+Prevention
+
+Execution
+
+Telemetry
+
+Detection
+
+Examination
+
+Containment
+
+Recovery
+
+
+
+
+7. Positive observations
+       Mandatory. Controls, detections, response actions and design decisions that worked. A
+       report without this section is inaccurate and will be read as an attack on the defenders.
+
+                                                   What it prevented or
+#                          Observation             detected                       Recommendation
+
+
+P-01                                                                              Maintain / extend to:
+
+P-02
+
+P-03
+
+P-04
+
+P-05
+
+
+
+
+8. Findings
+Record full detail for each finding on pro forma T09. Summary table:
+
+                                                                  Affected
+ID                 Title          Severity       Category         assets         Owner         Target date
+
+
+RT-[NNN]-001
+
+RT-[NNN]-002
+
+RT-[NNN]-003
+
+
+                                             UNCLASSIFIED
+                                                  74/112
+                                             UNCLASSIFIED
+
+
+
+                                                                 Affected
+ID                 Title          Severity       Category        assets         Owner       Target date
+
+
+RT-[NNN]-004
+
+RT-[NNN]-005
+
+
+
+Severity                                                       Count
+
+
+Critical
+
+High
+
+Medium
+
+Low
+
+Informational
+
+
+Disputed severities (customer position recorded):
+
+                                                      Assessed organisation’s
+Finding                 Red team assessment           assessment                  Basis stated
+
+
+
+
+9. Social engineering results
+Rates only. Individual results are never reported.
+
+Metric                                                              Value
+
+
+Emails sent
+
+Delivery rate
+
+Click rate
+
+Credential submission rate
+
+Report rate
+
+Time to first user report
+
+
+                                             UNCLASSIFIED
+                                                     75/112
+                                             UNCLASSIFIED
+
+
+
+Assessment:
+
+Response / notes
+
+
+
+
+10. Conclusion and risk statement
+10.1 Overall assessment
+
+Response / notes
+
+
+
+
+10.2 The most important thing in this report
+One paragraph. If the reader acts on one thing, this is it.
+
+Response / notes
+
+
+
+
+10.3 Residual risk
+
+Response / notes
+
+
+
+
+                                             UNCLASSIFIED
+                                                   76/112
+                                              UNCLASSIFIED
+
+
+
+
+Response / notes
+
+
+
+
+10.4 Recommended next assessment
+
+Field                                                             Value
+
+
+Suggested type
+
+Suggested timing
+
+Suggested focus
+
+
+
+
+Appendices
+Appendix A — Full timeline
+
+#                Time (UTC)      Actor          Action          Host           Result         Evidence ref
+
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+
+Appendix B — Activity record
+        Delivered to the Trusted Agent at culmination. A complete timestamped record of red team
+        activity, with source addresses, enabling the defensive element to reconcile its telemetry and
+        distinguish red team activity from any other.
+
+
+                                              UNCLASSIFIED
+                                                    77/112
+                                     UNCLASSIFIED
+
+
+
+Appendix C — Indicators of compromise generated
+
+Type                     Indicator            Purpose                       Period active
+
+
+
+
+Appendix D — Evidence index
+Collection and provenance
+
+                                     Original source /   Collector /             Collected (UTC)
+Evidence ID        Description       path or query       method                  and known offset
+
+
+E-001
+
+E-002
+
+E-003
+
+E-004
+
+E-005
+
+E-006
+
+E-007
+
+E-008
+
+
+Integrity and handling
+
+                                     Original                                   Transformation,
+                   Hash algorithm    repository          Classification /       redaction or
+Evidence ID        and value         location            access                 working-copy ref
+
+
+E-001
+
+
+
+                                     UNCLASSIFIED
+                                           78/112
+                                            UNCLASSIFIED
+
+
+
+                                            Original                                 Transformation,
+                        Hash algorithm      repository            Classification /   redaction or
+Evidence ID             and value           location              access             working-copy ref
+
+
+E-002
+
+E-003
+
+E-004
+
+E-005
+
+E-006
+
+E-007
+
+E-008
+
+
+Transfer and access record, where chain of custody is required
+
+                                                                      Date / time
+Evidence ID       From / to        Person           Purpose           (UTC)            Integrity verified
+
+
+                                                                                       □
+
+                                                                                       □
+
+                                                                                       □
+
+
+Appendix E — Cleanup attestation
+Signed pro forma T12 attached.
+
+Field                                                                      Value
+
+
+All modifications removed and verified                                      □ Yes □ No — outstanding
+                                                                            items transferred to:
+
+Infrastructure decommissioned                                               □
+
+Credentials destroyed                                                       □
+
+C2 tasking, listeners, kill switches and delayed tasks disabled             □
+
+Certificates, tokens, keys and engagement channels revoked or closed        □
+
+Backup / image restoration assessed for artefact reintroduction             □
+
+Late-callback monitoring completed or transferred to a named owner          □
+
+Attested by
+
+
+                                            UNCLASSIFIED
+                                                  79/112
+                                           UNCLASSIFIED
+
+
+
+Appendix F — Deconfliction records
+T07 records attached.
+
+Appendix G — ROE changes
+ROE Appendix 9 attached.
+
+
+
+
+Report quality sign-off
+
+#                       Check                                                     ✓
+
+
+1                       Executive summary standalone, under 2 pages,              □
+                        jargon-free
+
+2                       Every claim traceable to referenced evidence              □
+
+3                       Positive observations present and substantive             □
+
+4                       Every narrative step has a defensive observation          □
+
+5                       Gap profile distinguishes no usable telemetry / no        □
+                        effective detection / alert not examined
+
+6                       No individual named or identifiable                       □
+
+7                       No credentials, tokens, keys or bulk sensitive data       □
+                        anywhere
+
+8                       Screenshots redacted, timestamps visible                  □
+
+9                       Severity ratings consistent                               □
+
+10                      Every finding has a root cause, not a restated            □
+                        symptom
+
+11                      Every finding has owner, target date, retest method       □
+
+12                      Unpreventable findings carry a detection                  □
+                        recommendation
+
+13                      Threat level stated and severity interpreted against it   □
+
+14                      Activity record and cleanup attestation attached          □
+
+15                      Classification and distribution correct                   □
+
+16                      Reviewed by someone who did not execute                   □
+
+17                      Evidence IDs, hashes, originals and report references     □
+                        reconcile
+
+
+
+                                           UNCLASSIFIED
+                                                 80/112
+                                        UNCLASSIFIED
+
+
+
+
+#                    Check                                                ✓
+
+
+18                   Timing results show sample, censored observations    □
+                     and limitations
+
+19                   Every ratio states numerator, denominator and        □
+                     exclusions
+
+20                   Comparisons identify scope, threat, ATT&CK and       □
+                     data-source changes
+
+21                   Cleanup covers C2, secrets, channels, restoration,   □
+                     backups and late effects
+
+
+
+                             Name                      Signature              Date
+
+
+Author (Red Team Lead)
+
+QA reviewer
+
+
+
+
+                                        UNCLASSIFIED
+                                              81/112
+                                                 UNCLASSIFIED
+
+
+
+T09 — Finding
+        One per finding. Attached to or embedded in the engagement report.
+
+
+
+RT-[ENGAGEMENT]-[NNN] — [TITLE]
+        The title states the defect and not the achievement. “Service account passwords are recoverable
+        from directory data”, not “administrative control of the domain was obtained”.
+
+Field                                              Value
+
+
+Finding ID                                         RT-[ENGAGEMENT]-[NNN]
+
+Severity                                           □ Critical □ High □ Medium □ Low □ Informational
+
+Category                                           □ Prevention □ Detection □ Response □ Recovery □
+                                                   Process
+
+Threat level at which this is reachable            □1□2□3□4
+
+ATT&CK technique(s)
+
+Threat-profile action / flow IDs
+
+Status                                             □ Open □ Remediated — awaiting retest □ Closed
+                                                   (retest passed) □ Risk accepted
+
+
+
+
+1. Affected assets
+
+Type                                Identifier                              Owner
+
+
+
+
+2. Description
+What the weakness is. Plain language. No blame.
+
+Response / notes
+
+
+
+
+                                                 UNCLASSIFIED
+                                                     82/112
+                                            UNCLASSIFIED
+
+
+
+3. How it was exploited
+The technique and the procedure — enough that a defender can reproduce the behaviour and build a
+detection for it.
+
+Response / notes
+
+
+
+
+Steps:
+
+#                                               Reproduction step
+
+
+1
+
+2
+
+3
+
+
+
+
+4. Evidence
+                                               Original / working-copy
+Evidence ID             Description            reference                 Integrity verified
+
+
+                                                                         □
+
+                                                                         □
+
+
+Screenshots redacted, timestamps visible.
+
+
+
+5. Mission / business impact
+     The field that determines whether this gets fixed. State what this enables an adversary
+     to do that matters to the organisation — not what it enables technically.
+
+Response / notes
+
+
+
+
+                                            UNCLASSIFIED
+                                                83/112
+                                           UNCLASSIFIED
+
+
+
+
+Response / notes
+
+
+
+
+Impact dimension                                                Assessment
+
+
+Confidentiality
+
+Integrity
+
+Availability
+
+Mission / service affected
+
+Regulatory or legal consequence
+
+
+
+
+6. Root cause
+        Not a restated symptom. “Weak password policy” is a symptom. “Service accounts have
+        no assigned owner, so no compensating control was ever applied to them” is a root cause.
+        Fixing symptoms produces the same finding next year.
+
+Field                                               Value
+
+
+Root cause
+
+Cause type                                          □ Configuration □ Design □ Process □ Resourcing
+                                                    □ Awareness □ Ownership gap
+
+Why it went unnoticed
+
+Possible prior finding reference
+
+Comparison basis: control objective, environment
+and attack condition
+
+Recurrence conclusion                               □ Validated recurrence □ Not recurrence □ Not
+                                                    comparable □ Prior correction not exercised
+
+
+
+
+7. Recommendation
+Primary recommendation:
+
+
+
+
+                                           UNCLASSIFIED
+                                                 84/112
+                                           UNCLASSIFIED
+
+
+
+
+Response / notes
+
+
+
+
+Alternatives, if the primary is not feasible:
+
+Option                      Effect                  Effort                  Trade-off
+
+
+
+
+Quick win available before full remediation?
+
+Response / notes
+
+
+
+
+8. Detection opportunity
+        Mandatory where the finding cannot be prevented economically. It provides the defensive
+        element with an available action while the structural correction is scheduled.
+
+Field                                                        Value
+
+
+Observable behaviour
+
+Data source required
+
+Does that telemetry exist today?                             □ Yes □ Partial □ No
+
+Suggested detection logic
+
+Expected false positive profile
+
+Detection built during this engagement?                      □ Yes — ref: □ No
+
+
+
+
+                                           UNCLASSIFIED
+                                                85/112
+                                              UNCLASSIFIED
+
+
+
+9. Ownership and remediation
+
+Field                                                                        Value
+
+
+Owner (role, not individual)
+
+Accepted by owner                                                            □ Yes — date: □ Disputed —
+                                                                             see § 11
+
+Target date
+
+Remediation approach agreed
+
+Dependencies
+
+Read-across: comparable services, systems, identities or suppliers
+
+Read-across owner and completion evidence
+
+
+
+
+10. Retest
+
+Field                                                          Value
+
+
+Retest method (the exact method of verification)
+
+Retest requested by owner on
+
+Retest performed on
+
+Retest performed by
+
+Environment, action IDs and evidence references
+
+Conditions changed since original test
+
+Result                                                         □ Passed — finding closed □ Failed —
+                                                               finding remains open □ Partially remediated
+
+Note
+
+
+        A finding is closed by a passed retest and not by the closure of a task.
+
+
+
+11. Dispute / risk acceptance
+If severity is disputed:
+
+
+
+
+                                              UNCLASSIFIED
+                                                    86/112
+                                              UNCLASSIFIED
+
+
+
+
+Field                                                                        Value
+
+
+Red team assessment
+
+Assessed organisation’s assessment
+
+Basis stated by the assessed organisation
+
+Resolution
+
+
+If the organisation elects not to remediate:
+
+Field                                                              Value
+
+
+Risk accepted                                                      □ Yes
+
+Rationale
+
+Compensating controls in place
+
+Accepted by (Approving Authority)
+
+Date
+
+Review date
+
+
+        Acceptance of risk is a legitimate decision. It is not closure. The finding remains open and is
+        reviewed on the date above.
+
+
+
+
+                                              UNCLASSIFIED
+                                                    87/112
+                                            UNCLASSIFIED
+
+
+
+T10 — Letter of Authorisation
+     Authority record. This letter records target-specific consent and the operational authority
+     represented by its signatories. It is necessary but may not be sufficient: applicable law,
+     regulation, contract, third-party rights and provider conditions remain in force. The legal
+     adviser shall confirm the required authorisation chain for the actual jurisdiction, entities,
+     systems and activities. This letter shall be:
+       • Signed by the person with actual system authority for every system or facility in
+         scope, with operational risk countersigned where that authority is held separately.
+       • Short enough to be read and understood in under a minute by a police officer, a security
+         guard, or a systems administrator.
+       • Comprehensible without reference to the Rules of Engagement. It stands alone.
+       • Carried by every operator, physically and digitally, for the whole engagement.
+     Verify each signatory’s authority. A person without the relevant authority cannot confer
+     valid system consent or risk acceptance. If systems belong to another legal entity, division,
+     agency or third party, obtain that authority directly and record it in the ROE. Do not infer
+     authority from title alone.
+
+
+[ORGANISATION LETTERHEAD]
+
+LETTER OF AUTHORISATION
+Authorised Security Testing
+Reference: [RT-YYYY-NNN] Date of issue: [DATE]
+TO WHOM IT MAY CONCERN
+I, [FULL NAME], [TITLE] of [ORGANISATION], confirm that I hold the authority to authorise
+security testing of the information systems and facilities identified below, and that I hereby grant that
+authorisation.
+1. Authorised personnel
+The following individuals are authorised to conduct this testing:
+
+Name                    Role                           Organisation              Identification
+
+
+                        Red Team Lead
+
+                        Operator
+
+                        Operator
+
+
+2. Authorised activity
+The individuals named above are authorised to conduct security testing, which may include attempting to
+gain unauthorised access to, and to move within, the systems identified in paragraph 3, using techniques
+comparable to those used by malicious actors. This may include attempts to bypass technical controls
+and to obtain credentials.
+Detailed limits and prohibitions are set out in the Rules of Engagement reference [RT-YYYY-NNN],
+which forms part of this authorisation.
+3. Scope of authorisation
+
+
+
+
+                                            UNCLASSIFIED
+                                                 88/112
+                                            UNCLASSIFIED
+
+
+
+
+Item                                                                     Detail
+
+
+Systems, networks and domains
+
+Owning legal entity or entities
+
+Provider / third-party permission references
+
+Physical locations (if applicable)
+
+Social engineering authorised                                            □ Yes □ No
+
+Physical access attempts authorised                                      □ Yes □ No
+
+
+Activity outside this scope is not authorised.
+4. Period of authorisation
+This authorisation is valid from [DATE] 00:00 UTC to [DATE] 23:59 UTC inclusive, and at no
+other time. It may be revoked at any time by me or by the Trusted Agent named below.
+5. Verification
+Any person wishing to verify this authorisation should contact:
+
+Role                                       Name                         Telephone (24 hours)
+
+
+System Authority
+
+Approving Authority
+
+Trusted Agent
+
+
+These numbers are answered 24 hours a day for the duration of the period stated above.
+6. Instructions to staff encountering this activity
+Staff who encounter the individuals named above, or who detect activity they believe may be related to
+this testing, should:
+  • Continue to follow normal security procedures, including reporting and escalation. The
+    testing is intended to measure those procedures.
+  • Contact the Trusted Agent named above if verification is required.
+  • Not discuss this authorisation more widely, as doing so may invalidate the testing.
+7. Organisational authority and responsibility
+The activity described above is conducted at the request of and with the authorisation of
+[ORGANISATION]. The individuals named in paragraph 1 are authorised only while acting
+within the scope, activity and period stated and in accordance with the Rules of Engagement. This
+paragraph does not create an indemnity, waive third-party rights, or replace any allocation of liability
+required by law or contract.
+Legal / authority review reference: [REFERENCE]
+Reviewed by: [NAME AND APPOINTMENT]                  Date: [DATE]
+Signed by the System Authority
+
+
+                                            UNCLASSIFIED
+                                                  89/112
+                                     UNCLASSIFIED
+
+
+
+
+Signature                  ................................................................
+
+Name                       [FULL NAME]
+
+Title                      [TITLE]
+
+Organisation               [ORGANISATION]
+
+Date                       ................................................................
+
+
+Countersigned by the Approving Authority, where different
+
+
+Signature                  ................................................................
+
+Name                       [FULL NAME]
+
+Title                      [TITLE]
+
+Organisation               [ORGANISATION]
+
+Date                       ................................................................
+
+
+
+
+                                     UNCLASSIFIED
+                                          90/112
+                                            UNCLASSIFIED
+
+
+
+Immediate-Verification Card
+      Separate from the Letter of Authorisation. Carried by each operator, particularly for physical
+      or on-site work.
+      Contains nothing but the following. No scope, no techniques, no target list, no ROE
+      extract. Its only purpose is de-escalation and rapid verification by someone who has just
+      detained the operator. Any additional detail is intelligence handed to whoever is holding it.
+
+Verification detail                              Information
+
+
+Status                                           AUTHORISED SECURITY TESTING IN
+                                                 PROGRESS
+
+Bearer                                           The bearer is conducting authorised security testing on
+                                                 behalf of [ORGANISATION].
+
+Engagement reference                             [RT-YYYY-NNN]
+
+Approving Authority                              [APPROVING AUTHORITY NAME]
+
+Telephone, 24 hours                              [TELEPHONE]
+
+Trusted Agent                                    [TRUSTED AGENT NAME]
+
+Telephone, 24 hours                              [TELEPHONE]
+
+Immediate action                                 Call to verify before taking further action.
+
+
+Operator instructions if challenged
+   1. Stop immediately. Do not resist, evade, or leave.
+   2. State clearly: “I am conducting authorised security testing for [ORGANISATION].”
+   3. Produce the verification card. Ask that the number be called.
+   4. Comply with all instructions given by security personnel or law enforcement.
+   5. Do not disclose scope, techniques, targets, or the ROE.
+   6. Contact the Red Team Lead and Trusted Agent as soon as permitted.
+   7. Record what happened as soon as possible afterwards.
+Where physical entry is authorised, the Trusted Agent shall confirm before execution that site
+security leadership and, where appropriate, local law enforcement liaison have been briefed that authorised
+activity is occurring in the period — without disclosing timing or method.
+Confirmed by Trusted Agent on: ______________
+
+
+
+
+                                            UNCLASSIFIED
+                                                  91/112
+                                            UNCLASSIFIED
+
+
+
+T11 — Lessons Learned
+        Used in Phase 7. Two parts: lessons for the organisation and lessons for the Red Team.
+        Both are required. The Red Team section is the one that improves the capability — do not
+        skip it because the engagement went well.
+
+Field                                                           Value
+
+
+Engagement reference
+
+Date of review
+
+Facilitator
+
+Participants
+
+
+
+
+Part 1 — Lessons for the organisation
+1.1 What worked
+
+#                        What worked               Why                      How to preserve or extend it
+
+
+1
+
+2
+
+3
+
+
+1.2 What did not
+                  What did not
+#                 work              Root cause type                       Fix             Owner
+
+
+1                                   □ Tech □ Process □ People □
+                                    Ownership □ Resourcing
+
+2                                   □ Tech □ Process □ People □
+                                    Ownership □ Resourcing
+
+3                                   □ Tech □ Process □ People □
+                                    Ownership □ Resourcing
+
+
+1.3 Surprises
+Where reality differed from what the organisation believed. Often the most valuable output.
+
+
+
+
+                                            UNCLASSIFIED
+                                                 92/112
+                                            UNCLASSIFIED
+
+
+
+
+#                       What was believed         What was actually true    Consequence
+
+
+1
+
+2
+
+3
+
+
+1.4 Process observations
+
+Area                                            Observation                Action
+
+
+Detection
+
+Triage and escalation
+
+Incident response execution
+
+Communication during the incident
+
+Decision-making and authority
+
+Asset ownership and routing
+
+Documentation accuracy
+
+
+1.5 Detections built or improved
+
+                                 Technique                                      Validated by purple
+#               Detection        covered             Status                     replay?
+
+
+1                                                    □ Deployed □ In            □
+                                                     development
+
+2                                                    □ Deployed □ In            □
+                                                     development
+
+3                                                    □ Deployed □ In            □
+                                                     development
+
+
+
+
+Part 2 — Lessons for the Red Team
+2.1 Planning
+
+
+
+
+                                            UNCLASSIFIED
+                                                93/112
+                                              UNCLASSIFIED
+
+
+
+
+Question                                                            Answer
+
+
+Was the threat profile accurate and useful?
+
+Were the attack path hypotheses right? Which were wrong, and why?
+
+Were objectives well-specified and verifiable?
+
+Was the time box realistic?
+
+Was the starting position the right choice?
+
+What was not anticipated?
+
+
+2.2 Execution
+
+Question                                                            Answer
+
+
+What tradecraft worked well?
+
+What tradecraft failed, and why?
+
+Which tools performed poorly or unexpectedly?
+
+Were there gaps in the records? Where, and on what account?
+
+Was time lost to any avoidable cause?
+
+Were there near-misses on safety or scope?
+
+
+2.3 Errors and near-misses
+     Recorded honestly and without blame. Concealment is the problem; the mistake is not.
+
+                                                               Control that
+                What                               Why it      should have
+#               happened           Consequence     happened    prevented it      Change made
+
+
+1
+
+2
+
+3
+
+
+2.4 Process and safety
+
+
+
+
+                                              UNCLASSIFIED
+                                                  94/112
+                                             UNCLASSIFIED
+
+
+
+
+Question                                                                   Answer
+
+
+Did the deconfliction process work as designed?
+
+Was the Trusted Agent reachable when needed?
+
+Were stop conditions clear and actionable?
+
+Did the cleanup register capture everything?
+
+Were C2, secrets, secure channels and delayed tasks disabled or revoked?
+
+Could backup or image restoration reintroduce an engagement artefact?
+
+Any ROE ambiguity encountered?
+
+Any authorisation gap discovered?
+
+
+2.5 Reporting
+
+Question                                                                   Answer
+
+
+Did the report land with the audiences?
+
+Which sections were read, and which were not?
+
+Was the severity model applied consistently?
+
+Was any finding disputed, and was the dispute legitimate?
+
+How long did reporting actually take vs. planned?
+
+
+2.6 Capability gaps identified
+
+#             Gap            Type                             Action         Owner   Target
+
+
+1                            □ Skill □ Tooling □
+                             Infrastructure □ Process □
+                             Knowledge
+
+2                            □ Skill □ Tooling □
+                             Infrastructure □ Process □
+                             Knowledge
+
+3                            □ Skill □ Tooling □
+                             Infrastructure □ Process □
+                             Knowledge
+
+
+
+
+                                             UNCLASSIFIED
+                                                  95/112
+                                            UNCLASSIFIED
+
+
+
+Part 3 — Methodology changes
+     Items here feed the methodology review cycle described in Chapter 11 of the Red Team
+     Methodology.
+
+               Document /        Change
+#              section           proposed      Rationale        Requires re-approval?      Status
+
+
+1                                                               □ Yes (governing
+                                                                requirement) □ No
+
+2                                                               □ Yes (governing
+                                                                requirement) □ No
+
+3                                                               □ Yes (governing
+                                                                requirement) □ No
+
+
+
+
+Part 4 — Measures and comparison quality
+
+Measure ID /                            Sample /          Censored /     Data            Decision
+outcome                 Result          denominator       excluded       limitation      informed
+
+
+Objectives achieved /
+prevented
+
+Prevention
+
+Telemetry
+
+Detection
+
+Examination
+
+Containment
+
+Recovery
+
+Verified remediation
+
+
+Comparison decision
+
+                                                                                 Comparable? /
+Factor                               Previous case          This case            material difference
+
+
+Scope and service
+
+Threat and capability
+
+Procedure and starting position
+
+
+                                            UNCLASSIFIED
+                                                 96/112
+                                          UNCLASSIFIED
+
+
+
+                                                                                 Comparable? /
+Factor                             Previous case            This case            material difference
+
+
+Measurement window and sources
+
+ATT&CK release
+
+Defensive architecture
+
+
+
+Conclusion                                                               Value
+
+
+Trend reporting justified?                                               □ Yes □ No — rationale:
+
+Validated recurring findings
+
+Corrections not exercised in this engagement
+
+
+
+
+Part 5 — Actions
+
+#                    Action              Owner                  Target date          Status
+
+
+1
+
+2
+
+3
+
+4
+
+5
+
+
+
+
+                               Name                       Signature               Date
+
+
+Facilitator
+
+Red Team Lead
+
+Trusted Agent
+
+
+
+
+                                          UNCLASSIFIED
+                                                 97/112
+                                              UNCLASSIFIED
+
+
+
+T12 — Cleanup and Rollback Register
+        Populated during Phase 4, as each modification is made — not reconstructed at the end.
+        Closed out at Gate G5.
+        Forgotten implants, live accounts and orphaned infrastructure are the worst red team incidents.
+        They create real, uncontrolled risk that outlives the authorisation, and they are discovered by
+        someone else.
+        Assign the stable item IDs below when an item is first recorded. Do not renumber or reuse an
+        ID. Carry it into T05, T08 and any transferred action.
+
+Field                                                              Value
+
+
+Engagement reference
+
+Code name
+
+Execution window
+
+Register owner
+
+
+
+
+                                              UNCLASSIFIED
+                                                    98/112
+                                                   UNCLASSIFIED
+
+
+
+
+1. System modifications
+
+                                                                                                     Verified by
+             Date/time               Host /   Modification          Removal   Removed                (2nd
+Item ID      (UTC)        Operator   system   made           Type   method    (UTC)     Removed by   person)
+
+
+MOD-001
+
+MOD-002
+
+MOD-003
+
+MOD-004
+
+MOD-005
+
+MOD-006
+
+MOD-007
+
+MOD-008
+
+MOD-009
+
+MOD-010
+
+MOD-011
+
+MOD-012
+
+
+
+
+                                                   UNCLASSIFIED
+                                                        99/112
+                                         UNCLASSIFIED
+
+
+
+Type codes: IMP implant/beacon · PER persistence · ACC account · GRP group membership · CRED
+credential · CFG configuration · FILE uploaded file · DATA written data · NET network change · OTH
+other
+
+
+
+
+                                         UNCLASSIFIED
+                                             100/112
+                                                                       UNCLASSIFIED
+
+
+
+
+2. Persistence mechanisms
+Listed separately because these are the ones that survive if missed.
+
+                                                                                      Established   Removed
+Item ID             Host            Mechanism                                Detail   (UTC)         (UTC)     Removed by   Verified
+
+
+PER-001                            □ Scheduled task □ Service □ Run key □                                                  □
+                                   WMI subscription □ Startup folder □ DLL
+                                   hijack □ Other:
+
+PER-002                            □ Scheduled task □ Service □ Run key □                                                  □
+                                   WMI subscription □ Startup folder □ DLL
+                                   hijack □ Other:
+
+PER-003                            □ Scheduled task □ Service □ Run key □                                                  □
+                                   WMI subscription □ Startup folder □ DLL
+                                   hijack □ Other:
+
+PER-004                            □ Scheduled task □ Service □ Run key □                                                  □
+                                   WMI subscription □ Startup folder □ DLL
+                                   hijack □ Other:
+
+PER-005                            □ Scheduled task □ Service □ Run key □                                                  □
+                                   WMI subscription □ Startup folder □ DLL
+                                   hijack □ Other:
+
+PER-006                            □ Scheduled task □ Service □ Run key □                                                  □
+                                   WMI subscription □ Startup folder □ DLL
+                                   hijack □ Other:
+
+
+
+
+                                                                       UNCLASSIFIED
+                                                                          101/112
+                                                                UNCLASSIFIED
+
+
+
+
+3. Accounts, credentials and access
+
+                                                                     Created /
+                                                                     obtained                             Completed
+Item ID    Type                               Identifier   System    (UTC)       Action taken             (UTC)       By   Verified
+
+
+ACC-001     □ Account created □ Group                                            □ Deleted □ Reverted □                    □
+            added □ API key □ Token □ Cert                                       Reset □ Destroyed
+            □ Delegation □ Password changed
+
+ACC-002     □ Account created □ Group                                            □ Deleted □ Reverted □                    □
+            added □ API key □ Token □ Cert                                       Reset □ Destroyed
+            □ Delegation □ Password changed
+
+ACC-003     □ Account created □ Group                                            □ Deleted □ Reverted □                    □
+            added □ API key □ Token □ Cert                                       Reset □ Destroyed
+            □ Delegation □ Password changed
+
+ACC-004     □ Account created □ Group                                            □ Deleted □ Reverted □                    □
+            added □ API key □ Token □ Cert                                       Reset □ Destroyed
+            □ Delegation □ Password changed
+
+ACC-005     □ Account created □ Group                                            □ Deleted □ Reverted □                    □
+            added □ API key □ Token □ Cert                                       Reset □ Destroyed
+            □ Delegation □ Password changed
+
+ACC-006     □ Account created □ Group                                            □ Deleted □ Reverted □                    □
+            added □ API key □ Token □ Cert                                       Reset □ Destroyed
+            □ Delegation □ Password changed
+
+
+
+
+                                                                UNCLASSIFIED
+                                                                    102/112
+                                        UNCLASSIFIED
+
+
+
+Captured credentials:
+
+               Count /       Storage      Destruction   Destroyed
+Item ID        description   location     method        (UTC)       By   Verified
+
+
+CRED-001                                                                 □
+
+CRED-002                                                                 □
+
+CRED-003                                                                 □
+
+CRED-004                                                                 □
+
+CRED-005                                                                 □
+
+CRED-006                                                                 □
+
+CRED-007                                                                 □
+
+CRED-008                                                                 □
+
+
+
+
+                                        UNCLASSIFIED
+                                           103/112
+                                          UNCLASSIFIED
+
+
+
+
+4. Files and tooling
+
+Item ID            Host   Path   Description        Uploaded (UTC)   Removed (UTC)   By   Verified
+
+
+FILE-001                                                                                  □
+
+FILE-002                                                                                  □
+
+FILE-003                                                                                  □
+
+FILE-004                                                                                  □
+
+FILE-005                                                                                  □
+
+FILE-006                                                                                  □
+
+FILE-007                                                                                  □
+
+FILE-008                                                                                  □
+
+
+
+
+                                          UNCLASSIFIED
+                                               104/112
+                                    UNCLASSIFIED
+
+
+
+
+5. Data written to prove access
+
+                         What was     Marker        Removed
+Item ID      System      written      used          (UTC)         By        Verified
+
+
+DATA-001                                                                    □
+
+DATA-002                                                                    □
+
+DATA-003                                                                    □
+
+DATA-004                                                                    □
+
+DATA-005                                                                    □
+
+DATA-006                                                                    □
+
+DATA-007                                                                    □
+
+DATA-008                                                                    □
+
+
+
+
+6. Flags
+
+            Flag                     Placed by     Retrieved by   Removed
+Item ID     identifier   Location    (TA)          RT?            (UTC)     Verified
+
+
+FLAG-001                                           □                        □
+
+FLAG-002                                           □                        □
+
+FLAG-003                                           □                        □
+
+FLAG-004                                           □                        □
+
+FLAG-005                                           □                        □
+
+FLAG-006                                           □                        □
+
+FLAG-007                                           □                        □
+
+FLAG-008                                           □                        □
+
+
+
+
+                                    UNCLASSIFIED
+                                       105/112
+                                                    UNCLASSIFIED
+
+
+
+
+7. Infrastructure decommissioning
+
+                                                                     Logs preserved   Decommissioned
+Asset ID       Asset type   Identifier   Provider   Tier             first            (UTC)          By   Verified
+
+
+INF-001                                                              □                                    □
+
+INF-002                                                              □                                    □
+
+INF-003                                                              □                                    □
+
+INF-004                                                              □                                    □
+
+INF-005                                                              □                                    □
+
+INF-006                                                              □                                    □
+
+INF-007                                                              □                                    □
+
+INF-008                                                              □                                    □
+
+
+
+
+                                                    UNCLASSIFIED
+                                                           106/112
+                                             UNCLASSIFIED
+
+
+
+Includes: team servers, redirectors, domains, certificates, cloud resources, mail accounts, hosting accounts,
+phishing sites, payload hosting.
+
+
+
+
+                                             UNCLASSIFIED
+                                                   107/112
+                                                            UNCLASSIFIED
+
+
+
+
+8. Command and control, secrets and channels
+
+              Component / secret /        Identifier or   Disable, revoke   Completed        Late activity
+Item ID       channel                     reference       or close method   (UTC)       By   checked         Verified
+
+
+C2-001        Team server tasking                                                            □               □
+
+C2-002        Listener / redirector                                                          □               □
+
+C2-003        Kill switch / automatic                                                        □               □
+              expiry
+
+SEC-001       Certificate / signing key                                                      □               □
+
+SEC-002       API token / provider                                                           □               □
+              credential
+
+COM-001       Secure engagement channel                                                      □               □
+
+C2-004        Delayed task / scheduled                                                       □               □
+              callback
+
+OTH-001       Other                                                                          □               □
+
+
+
+
+                                                            UNCLASSIFIED
+                                                                 108/112
+                                        UNCLASSIFIED
+
+
+
+
+9. Restoration and delayed effects
+
+                             Agreed     Verification                      Second-
+                             restored   method /               Verified   person
+Control                      state      evidence       Owner   (UTC)      check
+
+
+Security controls changed                                                 □
+for the engagement
+
+Monitoring and alert                                                      □
+routing
+
+Services and configuration                                                □
+
+Backup / image                                                            □
+restoration will not
+reintroduce artefacts
+
+Secure communications                                                     □
+returned to ordinary state
+
+Late callbacks / delayed                                                  □
+tasks monitored through
+
+Residual provider                                                         □
+resources and billing
+checked
+
+
+
+
+                                        UNCLASSIFIED
+                                            109/112
+                                                                     UNCLASSIFIED
+
+
+
+
+10. Items that could NOT be removed or restored by the Red Team
+     Transferred in writing to the Trusted Agent as an open action with a named owner. These are not closed items.
+
+                                                            Basis on which it
+                      Item and original                     could not be                            Transferred to                     Target removal
+Transfer ID           ID                  Host / system     removed                 Risk if left    (name)           Accepted (date)   date
+
+
+OUT-001
+
+OUT-002
+
+OUT-003
+
+OUT-004
+
+OUT-005
+
+OUT-006
+
+OUT-007
+
+OUT-008
+
+
+
+
+                                                                     UNCLASSIFIED
+                                                                          110/112
+                                        UNCLASSIFIED
+
+
+
+
+11. Verification summary
+
+                                Items         Items          Items         Items
+#        Category               recorded      removed        verified      transferred   Outstanding
+
+
+1        System
+         modifications
+
+2        Persistence
+
+3        Accounts and
+         credentials
+
+4        Files and tooling
+
+5        Data written
+
+6        Flags
+
+7        Infrastructure
+
+8        Command, secrets
+         and channels
+
+9        Restoration and
+         delayed effects
+
+         TOTAL
+
+
+
+
+12. Gate G5 attestation
+
+#                   Criterion                                                  ✓
+
+
+1                   Every item in this register is removed and verified by a   □
+                    second person
+
+2                   Items that could not be removed are transferred in         □
+                    writing with a named owner
+
+3                   All persistence mechanisms confirmed removed               □
+
+4                   All created accounts and access confirmed removed          □
+
+5                   All captured credentials destroyed and recorded            □
+
+6                   Infrastructure decommissioned; logs preserved first        □
+
+7                   Flags retrieved and removed                                □
+
+
+                                        UNCLASSIFIED
+                                             111/112
+                                           UNCLASSIFIED
+
+
+
+
+#                      Criterion                                                ✓
+
+
+8                      Evidence repository consolidated, integrity-verified,    □
+                       classified
+
+9                      C2 tasking, listeners, kill switches and delayed tasks   □
+                       disabled
+
+10                     Certificates, tokens, keys and engagement channels       □
+                       revoked or closed
+
+11                     Monitoring, security controls and services restored to   □
+                       the agreed state
+
+12                     Backup and image restoration checked for artefact        □
+                       reintroduction
+
+13                     Late-callback monitoring complete or transferred with    □
+                       a named owner and deadline
+
+14                     Defensive activity list delivered to the Trusted Agent   □
+
+15                     Internal hot-wash held                                   □
+
+
+I attest that the target environment and engagement infrastructure have been returned to
+the agreed state except for the items explicitly transferred in section 10.
+
+                                      Name                  Signature               Date
+
+
+Red Team Lead
+
+Verifying operator (did not perform
+the removals alone)
+
+
+I accept this attestation and the transferred items listed in section 10.
+
+                             Name                     Signature                 Date
+
+
+Trusted Agent
+
+
+
+
+                                           UNCLASSIFIED
+                                                112/112
+

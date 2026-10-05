@@ -1,0 +1,158 @@
+# T07 — Deconfliction Record
+
+> One record per deconfliction event. Completed by the Red Team Lead, countersigned by the
+> Trusted Agent.
+>
+> **The timeline captured here becomes response-time evidence in the report.** Record times
+> precisely.
+
+| Field | Value |
+|---|---|
+| Engagement reference | |
+| Deconfliction record number | |
+| Date | |
+
+---
+
+## 1. The request
+
+| Field | Value |
+|---|---|
+| Time request received (UTC) | |
+| Received by | |
+| Raised by (name, role) | |
+| Channel used | ☐ Deconfliction line ☐ Alternate ☐ Other: |
+| Code word used? | ☐ Yes ☐ No ☐ N/A |
+
+**Observed activity as reported:**
+
+| Field | Value |
+|---|---|
+| Time of observed activity (UTC) | |
+| Source address observed | |
+| Target system(s) | |
+| Behaviour observed | |
+| Detection source (tool / alert ID) | |
+| What triggered the escalation | |
+
+---
+
+## 2. Red Team action
+
+| Field | Value |
+|---|---|
+| Time activity halted in the affected area (UTC) | |
+| Halted by | |
+| Operator logs checked | ☐ Yes — reference: |
+| C2 logs checked | ☐ Yes |
+| Session logs checked | ☐ Yes |
+
+---
+
+## 3. Determination
+
+| Field | Value |
+|---|---|
+| **Determination** | ☐ **Attributable to the red team** ☐ **Not attributable** |
+| Time determination made (UTC) | |
+| Time determination communicated (UTC) | |
+| **Elapsed: request to answer** | ______ minutes (agreed period: ______) |
+| Agreed period met | ☐ Yes ☐ No. Basis: |
+
+> A determination of probable attribution is not permitted. Where the records do not
+> establish attribution, the determination is that the activity is not attributable, and it
+> is handled as a genuine intrusion until established otherwise.
+
+**Where attributable, the matching activity:**
+
+| Field | Value |
+|---|---|
+| Operator | |
+| Operator record reference | |
+| Technique | |
+| Within the Rules of Engagement | ☐ Yes ☐ No. See § 5. |
+
+**Where not attributable:**
+
+| # | Action | Time (UTC) | By |
+|---|---|---|---|
+| 1 | All red team activity ceased | | |
+| 2 | Trusted Agent notified using the code word | | |
+| 3 | Evidence preserved | | |
+| 4 | Activity record transferred | | |
+| 5 | Approving Authority informed | | |
+| 6 | Legal / privacy / regulator informed where required | | |
+
+**Engagement status:** ☐ Suspended ☐ Terminated ☐ Resumed — authority:
+
+---
+
+## 4. Defensive response evidence
+
+*Recorded for the report. This is measurement, not judgement — it is never used to assess
+individuals.*
+
+| Event | Time (UTC), source and evidence reference |
+|---|---|
+| Red action time (UTC) | |
+| First telemetry recorded (UTC) | |
+| Alert generated (UTC) | |
+| Examination began (UTC) | |
+| Escalation raised (UTC) | |
+| First effective containment action (UTC) | |
+| Assessed access removed (UTC) | |
+| Recovery complete (UTC), if applicable | |
+| Measurement window ended (UTC) | |
+| Unobserved or censored events | |
+| Action taken | |
+| Was the action correct for a real intrusion? | ☐ Yes ☐ Partially ☐ No — note: |
+
+> Timing measures are calculated in T08 from the approved T04 definitions. This record
+> preserves the source events; an event not observed within the window is not recorded as
+> zero.
+
+---
+
+## 5. ROE compliance
+
+| Field | Value |
+|---|---|
+| Was the activity within the ROE? | ☐ Yes ☐ No |
+| If no — what deviation occurred | |
+| Cause | |
+| Immediate corrective action | |
+| Reported to Approving Authority | ☐ Yes — time (UTC): |
+| ROE amendment required | ☐ Yes — Appendix 9 ref: ☐ No |
+
+---
+
+## 6. Disclosure decision
+
+*Decided by the Trusted Agent alone.*
+
+| Field | Value |
+|---|---|
+| Was the defender told this was an exercise? | ☐ Yes ☐ **No — engagement remains covert** |
+| Rationale | |
+| If not told, how was the incident closed on their side? | |
+
+---
+
+## 7. Resumption
+
+| Field | Value |
+|---|---|
+| Activity resumed? | ☐ Yes ☐ No |
+| Time resumed (UTC) | |
+| Authorised by | |
+| Conditions on resumption | |
+
+---
+
+## 8. Sign-off
+
+| | Name | Signature | Date/time (UTC) |
+|---|---|---|---|
+| Red Team Lead | | | |
+| Trusted Agent | | | |
+

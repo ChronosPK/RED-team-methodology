@@ -1,0 +1,45 @@
+{
+  "fontFamily": "Arial, Helvetica, sans-serif",
+  "themeCSS": ".labelText, .loopText { font-size: 18px !important; }",
+  "themeVariables": {
+    "fontFamily": "Arial, Helvetica, sans-serif",
+    "fontSize": "20px",
+    "primaryColor": "#f3f4f6",
+    "primaryTextColor": "#111827",
+    "primaryBorderColor": "#4b5563",
+    "lineColor": "#374151",
+    "secondaryColor": "#e5e7eb",
+    "tertiaryColor": "#ffffff",
+    "noteBkgColor": "#f3f4f6",
+    "noteTextColor": "#111827",
+    "noteBorderColor": "#6b7280"
+  },
+  "flowchart": {
+    "htmlLabels": true,
+    "curve": "linear",
+    "nodeSpacing": 32,
+    "rankSpacing": 42,
+    "padding": 12,
+    "useMaxWidth": true
+  },
+  "sequence": {
+    "useMaxWidth": true,
+    "wrap": true,
+    "wrapPadding": 8,
+    "mirrorActors": false,
+    "diagramMarginX": 16,
+    "diagramMarginY": 12,
+    "actorMargin": 48,
+    "width": 180,
+    "height": 55,
+    "boxMargin": 10,
+    "messageMargin": 42,
+    "noteMargin": 12,
+    "actorFontSize": 18,
+    "actorFontFamily": "Arial, Helvetica, sans-serif",
+    "noteFontSize": 18,
+    "noteFontFamily": "Arial, Helvetica, sans-serif",
+    "messageFontSize": 18,
+    "messageFontFamily": "Arial, Helvetica, sans-serif"
+  }
+}
